@@ -1,0 +1,2796 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<terms>
+<term>
+<title><![CDATA[24/7 Application]]></title>
+<meaning><![CDATA[Continuous interactive application not linked to a TV programme event.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[A la carte]]></title>
+<meaning><![CDATA[Interactive purchase of individual TV channels
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[A/V]]></title>
+<meaning><![CDATA[A/V is an abbreviation for Audio/Visual. A technology that combines pictures with sound to convey information.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[AC3]]></title>
+<meaning><![CDATA[Dolby Digital Audio Coding.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[ACS]]></title>
+<meaning><![CDATA[Auto-Configuration Seever; as defined in TR-069.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[ACC]]></title>
+<meaning><![CDATA[Authorisation Control Centre: responsible for CA management of subscriber entitlements via EMMs.
+It is the headend CA component which receives and processes CA call-backs.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Action Menu]]></title>
+<meaning><![CDATA[A feature of the UI that enables the user to perform actions related to current content, including: get summary of event, select audio streams for playback, book or cancel a recording or reminder, save an event from the Review Buffer and access interactive applications.
+A feature of the UI that enables the user to perform actions related to current content, including: get summary of event, select audio streams for playback, book or cancel a recording and save an event from the Review Buffer.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Active Flash Bank]]></title>
+<meaning><![CDATA[The Flash storage in the STB from which the System loads the runtime code of the current software version.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Actor]]></title>
+<meaning><![CDATA[An actor is something or someone who supplies a stimulus to the System. It can also be thought of as something the System requires in order to function.
+Primary Actors interact directly with a System to achieve their goals. Supporting actors may be humans or Systems called in to support the Primary Actor.
+An actor is often thought of as a role, rather than an actual person. A single person in the real world can be represented by several actors if they have several different roles and goals in regard to a System.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Adult Content]]></title>
+<meaning><![CDATA[&apos;Adult content&apos; is content that is explicitly flagged as &apos;adult&apos; by the content provider.
+Content is considered adult if one of the two conditions below is true: 
+Adult flag set to true, OR
+Content genre is &quot;adult&quot; OR
+DVB genre in {0x0F;0x18;0xF0...0xFF}
+Parental rating of the content is set to &quot;adult&quot;
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[AGC]]></title>
+<meaning><![CDATA[Automatic Gain Control.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Alarm]]></title>
+<meaning><![CDATA[Timer event (handled by the front panel) used to wake up the middleware.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[AMS]]></title>
+<meaning><![CDATA[Audience Measurement System; the NDS system used to collect and upload information on user activity and consumption habits.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Analogue Outputs]]></title>
+<meaning><![CDATA[The composite outputs on the set-top box are:
+The SCART output
+The RF outputs
+The S-Video output
+The composite video outputs (not present on all STBs)
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Anytime Disk Quota]]></title>
+<meaning><![CDATA[See System Disk Quota.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Anytime Disk Quota Threshold]]></title>
+<meaning><![CDATA[The Anytime Disk Quota utilisation threshold at which the System will trigger an imminent disk quota conflict. The threshold provides approximately [7] minutes of protection for the Anytime Disk Quota, according to the estimated bitrate of any Anytime Push content that is currently being recorded. This helps ensure that the quota never reaches 100% utilisation. 
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Anytime Filter]]></title>
+<meaning><![CDATA[A subset of the Planner consisting solely of those items that are currently on the Anytime PDL download queue.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Anytime Items / Content]]></title>
+<meaning><![CDATA[Refers to both Push VOD and PDL items/content.
+An Item is an entry in the Catalogue (or when already downloaded, in the user&apos;s planner).
+It is linked to a specific Asset, referred to as the Primary Asset. Most of the metadata related to the Item are description information related to the content carried by the latter.
+An Item may be booked for download. It resolves into a Playlist (or Presentation) gathering together several assets including the primary asset.
+In this model, all the assets making up a Playlist will be compiled into a single item file in the headend before it may be downloaded by the STB. Selecting a Catalogue Item for download will mean in this case to retrieve and store this unique compiled file.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[ARR (Automatic Recommended Recording)]]></title>
+<meaning><![CDATA[A recording request made by the recommendation engine to record a specific linear event.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[ARR List]]></title>
+<meaning><![CDATA[An ARR list represents an on-going request to the recommendation engine for generating ARRs and contains any ARRs recorded per that request. Each ARR is associated with an ARR list.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Asset (Store)]]></title>
+<meaning><![CDATA[A Store item that the user can highlight, and for which he can obtain information (such as price or other details).
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Asset (VOD)]]></title>
+<meaning><![CDATA[An Asset refers to the file in the VOD platform which provides an instance of a movie, an advertisement clip, a TV show, or any other type of content that will be played out as part of a playlist to the viewer. Assets include Primary Assets, Secondary Assets and Trailers. Collections and Collapsed listings are not assets.
+A VOD asset is a particular Store item representing a single AV program available on-demand.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Audio Description]]></title>
+<meaning><![CDATA[Audio description (AD) is an ancillary component associated with a TV service which delivers a verbal description of the visual scene as an aid to understanding and enjoyment particularly, but not exclusively, for viewers who have visual impairments.
+Audio description (AD) is called &quot;Descriptive Video&quot; in the ATSC specification.
+Provision of AD for a proportion of programmes is a mandatory requirement for digital terrestrial broadcasts in the UK.
+There are two mechanisms for delivering AD:
+(--1--) An audio stream which just contains the descriptive content. This needs to be mixed by the set top box with the regular audio stream. To achieve this, the set top box must decode two elementary streams and mix them.
+(--2--) A pre-mixed audio stream which contains both the regular and descriptive audio content in a single audio elementary stream.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Audio Navigator]]></title>
+<meaning><![CDATA[Area within the UI that allows the browsing of aggregated audio content. 
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[AUS]]></title>
+<meaning><![CDATA[Authentication Server. The machine(s) which authenticate STBs when they attempt to make a connection to Sky via the online return path. The AUS implements a bilateral authentication protocol with the Viewing Card in the STB.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[AUTH]]></title>
+<meaning><![CDATA[Authentication server.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Authentication]]></title>
+<meaning><![CDATA[The process of bilateral authentication whereby the Viewing Card in the STB and the SSSL Authentication Server verify each other&apos;s credentials before allowing the STB to establish a connection with a back-end service.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Autostart Application]]></title>
+<meaning><![CDATA[An Autostart application is an application that will be automatically launched when the user selects the service that the application belongs to.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Auto-Tune]]></title>
+<meaning><![CDATA[The System automatically tunes to a channel that is currently being recorded, triggering the use case Tune To A Channel. The System tunes to the highest priority, viewable, non-Pay-Per-View recording.
+If all recording events are Pay-Per-View, the System selects the highest priority Pay-Per-View event.
+If all tuners are in use by Non-Viewable Recordings, the System stops presenting A/V and blanks the screen.
+If no recordings are taking place, the System tunes to the last-viewed channel.
+If no recordings are taking place and the last-viewed channel is not available, the System tunes to the default channel.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Availability Window]]></title>
+<meaning><![CDATA[The period of time an asset is available on the VOD servers.
+Typically, an Availability Window for an Asset will include any Publication Windows for associated Items and be extended to cover the last of these Publication Windows.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Available]]></title>
+<meaning><![CDATA[The status achieved by a VOD Item when it reaches the playback point (see below).
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Banner]]></title>
+<meaning><![CDATA[See &apos;Search and Scan Banner&apos;.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[BARB]]></title>
+<meaning><![CDATA[The Broadcasters&apos; Audience Research Board (BARB) is responsible for providing estimates of the number of people watching television. This includes which channels and programmes are being watched, at what time, and the type of people who are watching at any one time.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[BAT]]></title>
+<meaning><![CDATA[Bouquet Association Table. The BAT contains information about the groups of services which are marketed under a single package. The services could be part of different multistreams.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[BCC]]></title>
+<meaning><![CDATA[Broadcast Control Computer: responsible for generating ECMs and control words from CA information on the current programs updating the ECM/CW every key period, and delivering them to the Mux.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[BE]]></title>
+<meaning><![CDATA[Back end.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[BEM]]></title>
+<meaning><![CDATA[Back End Manager.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[BER]]></title>
+<meaning><![CDATA[Bit Error Rate.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Blacked Out / Blackout]]></title>
+<meaning><![CDATA[See Time-Blackout.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Blue Screen]]></title>
+<meaning><![CDATA[A situation where the System is unable to display a channel and instead outputs a blue screen.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[BO]]></title>
+<meaning><![CDATA[Blackout.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Bonus SVOD]]></title>
+<meaning><![CDATA[Content is viewed for &quot;free&quot; if the correct linear subscription is held. Positioned as an added value service to existing customers e.g. the c500 movies currently in license to Sky, viewable for free to Sky Movies subscribers
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Bookmark]]></title>
+<meaning><![CDATA[Bookmarks are time-referenced pointers, or video marks, within a recorded event. 
+Bookmarks can be inserted while playing a recorded programme and enable a user to go back to a specific point in a programme.
+Once set, it is possible to skip backwards and forwards between bookmarks, hence bookmarks are also sometimes referred to as &apos;skip points&apos;.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Boot Application]]></title>
+<meaning><![CDATA[An interactive application that is launched each time the CPE first reaches the Running mode after boot of the video processor.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Bouquet]]></title>
+<meaning><![CDATA[This is a collection of services grouped as a single entity. Each group is identified by a bouquet identification number in the range 0x1000 to 0x101F. Additionally, one or more private sub-bouquets with sub-bouquet IDs identify the services and their attributes.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Brand]]></title>
+<meaning><![CDATA[See &apos;Provider Brand&apos;.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Brick, Bricking]]></title>
+<meaning><![CDATA[When used in reference to electronics, &apos;brick&apos; describes a device that cannot function in any capacity (such as a machine with damaged firmware). This usage derives from the fact that some electronic devices (and their detachable power supplies) are vaguely brick-shaped, and so those which do not function are as useful as actual bricks. The term can also be used as a verb. For example, &apos;I bricked my MP3 player when I tried to modify its firmware.&apos;
+In the strictest sense of the term, bricking must imply that the device is completely unrecoverable without some hardware replacement. If the device can be repaired through software or firmware changes, it&apos;s not a brick.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Broadband Application]]></title>
+<meaning><![CDATA[Interactive content loaded by the CPE device from servers on the broadband IP network.
+Broadband applications can be 24/7 or eTV applications.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Broadcast Application]]></title>
+<meaning><![CDATA[Interactive content loaded by the CPE device from a broadcast DSM-CC object carousel.
+Such an application can be cached on the CPE device persistent storage. In this case, we will call it a &quot;cached application&quot; in the present document.
+Broadcast applications can be 24/7 or eTV applications.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[BSL]]></title>
+<meaning><![CDATA[Boot Strap Loader.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[BSS]]></title>
+<meaning><![CDATA[Broadcast Support System (BSS) supports broadcast scheduling from acquisition of new programmes through to the production of the final transmission schedule.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Bulletin]]></title>
+<meaning><![CDATA[A Bulletin is a block of text that can be displayed to all viewers tuned to a particular channel, regardless of whether they are enabled for that channel or not. The text, consisting of up to 6 lines of up to 12 characters each, is superimposed over the regular display.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Bundle]]></title>
+<meaning><![CDATA[A bundle allows an end-user to purchase a promotional package (i.e. several products combined into one).
+A bundle is a promotional package (allowing, for example, the purchase of several products for a special price).
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[CA]]></title>
+<meaning><![CDATA[See Conditional Access.
+Conditional Access.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[CA Kernel]]></title>
+<meaning><![CDATA[See VideoGuard Verifier.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[CA_Service_ID]]></title>
+<meaning><![CDATA[The identifier for a CA Event. A single CA Event can be divided into blocks with different types of access restriction (e.g., the first 5 minutes clear and purchasable; next 10 minutes scrambled and purchasable; the rest of the show scrambled).
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Cached Application]]></title>
+<meaning><![CDATA[Interactive content loaded by the CPE device from a broadcast DSM-CC object carousel that is cached in device persistent storage.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Call-back]]></title>
+<meaning><![CDATA[An automatic function which reports IPPV purchases to the ACC. The subscriber access card triggers a call from the modem in the STB to the ACC. A monthly call is usually scheduled for each subscriber, but special call-backs can be triggered, for example when a special event is purchased or viewed.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[CAMM]]></title>
+<meaning><![CDATA[CA Management Module
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Cancelled Download]]></title>
+<meaning><![CDATA[A VOD item whose download has been stopped at the request of the viewer and which will remain in an inactive state until the viewer &apos;re-schedules&apos; the item.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Card ID]]></title>
+<meaning><![CDATA[Each subscriber viewing card has a unique Card ID. This ID is used by the ACC to address packets to the cardholder.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Catch Up to Live]]></title>
+<meaning><![CDATA[When fast-forward play in time-shift mode reaches the end of the Review Buffer, time-shift mode ends and live play is resumed (after a reasonably smooth transition) on the same service. This operation is known as Catch Up to Live.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Catch-up TV]]></title>
+<meaning><![CDATA[A service whereby the customer can select and watch programmes previously broadcast on linear TV channels, but only after the broadcast has ended. Access to play out the assets is usually via a type of application known as a Channel on Demand portal, which serves as a dedicated portal to content provided by broadcasters of TV channels. Catch-up TV requires that the assets are available for playout soon after the broadcast has ended. This necessitates acquisition from live feeds, or offline in advance of broadcast, to ensure timely availability on the VOD platform.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[CBR]]></title>
+<meaning><![CDATA[Constant Bit Rate.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[CCI]]></title>
+<meaning><![CDATA[Copy Control Information.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[CDI]]></title>
+<meaning><![CDATA[Common Driver Interface.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[CDN]]></title>
+<meaning><![CDATA[Content Delivery Network - the network infrastructure for delivering PDL content to set-top box clients. It includes DNS and authentication services as well as the actual assets such as the programmes and thumbnails.
+The CDN includes a centralised repository, containing a copy of all the contents meant to be downloaded by the STB (aka. the Origin) and a set of cache units disseminated across the Sky network (Typically between 2 and 4 POP location) respectively storing a subset of this content base.
+The CDN also includes a logical Content Distribution Manager. This component is responsible for the propagation of copies of the content from the Origin to some of the distributed units.
+The CDN infrastructure will not only be used for the delivery to the STB of the A/V assets but also for other static content like pictures or key files.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[CDS]]></title>
+<meaning><![CDATA[Content Directory Service; a UPnP standard service allowing a client (digital media player or digital media controller) to retrieve media library information exposed by a UPnP Digital Media Server (e.g. containers, items, and resources).
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[CGMS-A]]></title>
+<meaning><![CDATA[Copy Generation Management System - Analogue.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[CGMS-D]]></title>
+<meaning><![CDATA[Copy Generation Management System - Digital.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Chaining]]></title>
+<meaning><![CDATA[Chaining refers to the process of migrating from one Viewing Card to another Viewing Card of the next generation. During the Chaining process, the System transfers the contents from the old Viewing Card to the new Viewing Card. When the System is in Chaining mode, it synchronises the contents of the Viewing Card to the STB memory whenever the Viewing Card is updated.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Channel]]></title>
+<meaning><![CDATA[See &apos;Linear Channel&apos;.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Channel Bar]]></title>
+<meaning><![CDATA[A feature of the UI that enables the user to get information and perform UI navigation in the context of a channel. E.g. access the channel Store, get information on next program on this channel.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Channel Group Id]]></title>
+<meaning><![CDATA[The Channel Group Id is an identifier attached to channels which allows Sky to identify relationships between them.
+It is used to associate +1&apos;s, NVOD and BBC regional channels in the appropriate groupings.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Channel Line-up]]></title>
+<meaning><![CDATA[Set of channels used for up/down navigation or when presenting channels to the user (Channel Bar, Fast Channel List, Programme Grid). The channel line-up is made up of in-list TV channels, mosaics, and user favourite channels.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Channel List]]></title>
+<meaning><![CDATA[The set of in-list channels.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Child Event]]></title>
+<meaning><![CDATA[A &apos;child&apos; event is an additional event that is not represented in the scheduled information under a particular service but is linked to and dependent on a main event.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[CINCH]]></title>
+<meaning><![CDATA[A type of electrical connector commonly used to carry audio and video signals, sometimes called RCA or Phono connector.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Classification (Store)]]></title>
+<meaning><![CDATA[A category in the Store that contains several assets and/or sub-classifications.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Classification (VOD)]]></title>
+<meaning><![CDATA[Classifications refer to the menu items shown on the VOD main menu - a flexible method to group assets together. They are likely to be genres, but could also be editorial classifications.
+A category in the Store that itself contains several assets and/or sub-classifications.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Clear Content]]></title>
+<meaning><![CDATA[Broadcast content that is not scrambled.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[CMS]]></title>
+<meaning><![CDATA[Call Management System.
+Customer Management System.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Cold Standby]]></title>
+<meaning><![CDATA[A mode where both video processing and network capabilities are switched off, so that the power consumption is minimum.
+Waking up from this mode takes as long as from a Power Off state.
+The CPE device can exit from this mode by pressing the Power/Standby key on the front panel or on the remote control. Timer events can also wake up the CPE device, for maintenance phase or for scheduled recordings, if the CPE device supports recording.
+The IP Client device can exit from this mode by pressing the Power/Standby key on the front panel or on the remote control. 
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Collapse/Collapsing]]></title>
+<meaning><![CDATA[A presentation process. A group of Single Items initially presented as a single entry in the VOD listings or the Planner. The aim is to group all Single Items with both the same (Item) Name and Provider Brand in one listing that can then be expanded by the viewer to select individual Single Items (most likely series episodes).
+Collapsing in the VOD listings is determined by the headend, whereas collapsing in the Planner is dynamically determined by the STB (Orchid onwards).
+The System will present a single content item for any group of content items if:
+In the case of Search results within TV Guide, entries can be grouped into collapses if:
+(--1--) The event title is the same and the channel group is the same (e.g. because they are NVOD or +1s). This type of collapses will be referred to as Collapsed Groups. 
+(--2--) The event title is the same and the channel is the same. This type of collapses will be referred to as Collapsed Listings.
+(--3--) The event title is the same and the channels are regional variations of the same channel. This type of collapses will be referred to as Regional Groups.
+In the case of search results within Anytime or Planner entries, entries can only be grouped into a collapsed group if:
+(--1--) For Anytime entries the event title is the same and the asset brand is the same.
+(--2--) For Planner entries the event title is the same and the channel is the same.
+For search within TV Guide, regional channels that are separately listed within the EPG will be identified and grouped where the title and start time are an exact match. Only the content for the regional channel with the lowest channel number will be returned (i.e. all other regional variants will be suppressed from the search results).
+In the case of Promo Listings, entries are grouped according to information defined in the promo module associated with the Promo Listings:
+(--1--) Typically entries with the same event title will be grouped together. This will be referred to as Collapsed Title.
+(--2--) Collapsed Title can be expanded to present the list of Showings within it, which are the same event showing at different time slots.
+In all cases, a Collapse should only be presented when more than one item exists that qualifies for inclusion. If there is only one item then that should be presented as a single item in the normal way.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Collapse/Collection Expanded Listing]]></title>
+<meaning><![CDATA[When a collection or collapse is expanded, the members are displayed as a separate modal list. That is to say, items outside of the collection or collapse are no longer displayed, and the options available to the user are limited to those appropriate to a collection or collapse (for example, there is no ability to filter by provider brand). To return to the parent listing, the viewer must close the expanded listing.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Collection]]></title>
+<meaning><![CDATA[A package of Collection Items presented as a single entry in the main VOD Catalogue menus. The grouping of Collection Items into a Collection is the result of an editorial process performed by the VOD Operator.
+A Collection will promote its own attributes (name, synopsis...) in the VOD listings.
+Examples of collections are Star Wars Collection (all 6 films), Angel - Series 1, The Best of Julia Roberts.
+A collection can combine items also available as free, SVOD or Pay-Per-View single items. Each collection item is bought or booked individually.
+A collection can include items from multiple provider brands, in which case it will have a lead Provider Brand.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Collection Item]]></title>
+<meaning><![CDATA[A Collection Item characterises an item presented through a Collection. In all other respects it is the same as a Single Item.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Commercial]]></title>
+<meaning><![CDATA[Defines customers who use Sky TV as part of their own product offering, e.g. pubs and clubs.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Composite Video]]></title>
+<meaning><![CDATA[Complete video signal including Synchronisation, luminance, chrominance and teletext where transmitted. Not including audio or data sub-carriers.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Conditional Access]]></title>
+<meaning><![CDATA[Method by which consumers can access an encrypted and scrambled TV service (and, in the future, multimedia services). The &apos;conditional&apos; element of the term refers to the fact that consumers can gain access on condition of having paid a subscription fee. Usually the technology involves the consumer having possession of a smart card that has been instructed by the broadcaster through a data stream within the satellite (or cable) TV signal to de-scramble the video stream.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Container]]></title>
+<meaning><![CDATA[From the CDS v3 specification: &quot;A container instance represents a collection of objects. Containers can represent the physical organization of objects (storage containers) or logical collections. Logical collections can have formal definitions of their contents or they can be arbitrary collections. Containers can be either homogeneous, containing objects that are all of the same class, or heterogeneous, containing objects of mixed class. Containers can contain other containers.&quot;
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Copy Indicator]]></title>
+<meaning><![CDATA[The Copy Indicator is a flag that can be set on recordings in the STB Planner to show that the Viewer has selected them be added to the Copy List for recording to an external device such as a VCR or DVD recorder.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Copy Playlist]]></title>
+<meaning><![CDATA[The Copy Playlist is the list of recordings in the STB Planner that the Viewer has selected to be played out one after the other so that they can be recorded on an external device such as a VCR or DVD recorder.
+Only items hosted in the Local STB can be added to the Copy Playlist.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[CP]]></title>
+<meaning><![CDATA[Crypto-period; a period of time during which a single control word is used to scramble content (if applicable).
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[CPE]]></title>
+<meaning><![CDATA[Customer Premises Equipment: Equipment that interfaces, or connects, to the Operator network and physically resides at the user&apos;s location.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[CRM]]></title>
+<meaning><![CDATA[Customer Relationship Management, used within this document to describe the Sky systems for supporting the one-to-one relationship between Sky and its customers, with regard to sales, billing, and support.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[CSR]]></title>
+<meaning><![CDATA[Customer Service Representative.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Current Series]]></title>
+<meaning><![CDATA[(--1--) A current series event is an event which is part of a series (determined by the presence of a Series ID) and which has a start time less than [28] days in the past. 
+(--2--) A current series is a series for which at least one event exists which has a start time less than [28] days in the past; in other words it has at least one current series event. 
+(--3--) An event is a member of a current series if it shares the series ID of a current series and it can be linked to any current event in the series by a chain of zero or more connections, with none of the connections having a gap of [28] days or more. Note that a single event can qualify as part of a series under this definition.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[CUTL]]></title>
+<meaning><![CDATA[Catch up to Live.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[CW]]></title>
+<meaning><![CDATA[Control word.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Default Audio Track]]></title>
+<meaning><![CDATA[The default audio track for a programme as signalled by the default track tag in the PMT.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Default Channel]]></title>
+<meaning><![CDATA[The broadcast channel that set-top boxes are programmed to tune to when there is no overriding request to tune elsewhere (such as tuning to the viewer&apos;s last-viewed channel). The default channel will normally be on the EPG transponder and will carry programme schedule information which the STB will use to populate the schedule grid and the local cache (from EPG 1.5 onwards).
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Default Standby Mode]]></title>
+<meaning><![CDATA[A Standby mode that is selected by the user as the mode to be entered when pressing the Standby (&quot;Power&quot;) key while in Running (Power On) mode. It can be one of:
+Hot Standby
+Lukewarm Standby
+Cold standby
+By selecting one of these modes, the user actually chooses a different trade-off between power consumption and boot-up time (and the level of functionality supported). The list above is ordered by ascending boot time and descending power consumption.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Device]]></title>
+<meaning><![CDATA[As per dictionary definition &quot;a thing made for a particular purpose; an invention or contrivance, esp. a mechanical or electrical one&quot;, the term device is used in this document to designate a generic CPE when the particular nature of the CPE is not relevant. For example, Gateway, IP Client, and Interactive STB are various types of CPE devices. In the context of the standby state, the term also refers to peripherals to a central processor (in the computer hardware meaning).
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Device Navigator
+]]></title>
+<meaning><![CDATA[Area within the UI that allows the browsing of UPnP devices found on the home network.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[DHCP]]></title>
+<meaning><![CDATA[Dynamic Host Configuration Protocol is a networking protocol used by devices (DHCP clients) to obtain configuration information such as ip address, subnet mask and DNS address(es) for operation in an Internet Protocol network. 
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Digital Audio Output Delay]]></title>
+<meaning><![CDATA[Delay between video and audio output from all digital outputs.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Direct Subscription Upgrade]]></title>
+<meaning><![CDATA[The mechanism by which a Viewer can press the red button on the Sky remote control while viewing an unsubscribed asset in order to purchase the subscription to enable the viewing of that asset.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Disk Quota]]></title>
+<meaning><![CDATA[A specific logical area of PVR disk storage to which recordings are allocated.  Each disk quota has a configured maximum size; attempts to record beyond this size will result in disk quota conflicts. In the Fusion-based Product, three disk quotas are defined: the Review Buffer Quota (for Review Buffer recording); the System Quota; and the User Quota (for all other recordings, whether user-initiated or system-initiated).
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Diskless Mode]]></title>
+<meaning><![CDATA[In Diskless Mode, a Sky+ STB (as opposed to a Digibox which does not of course have a hard disk in the first place) provides parts of its functionality that do not require disk usage. The System operates in Diskless Mode when hard disk failure occurs during power-up. When in Diskless Mode, any request for functionality that require disk access will return a failure that indicates that the disk-related functionality is not available.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Display Mode]]></title>
+<meaning><![CDATA[The display mode refers to the picture&apos;s aspect ratio. The EPG supports the following options:
+16:9
+4:3
+4:3 Letterbox
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[DLNA Digital Media Controller (DMC)]]></title>
+<meaning><![CDATA[From the DLNA specification: &quot;A DLNA Device Class having home network environmental characteristics, with the role of finding content exposed by a DMS and matching it to the rendering capacities of a DMR and setting up the connections between the DMS and the DMR.&quot;
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[DLNA Digital Media Player (DMP)]]></title>
+<meaning><![CDATA[From the DLNA specification: &quot;A DLNA Device Class having home network environmental characteristics, with the role of finding content exposed by a DMS and rendering the content locally.&quot;
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[DLNA Digital Media Renderer (DMR)]]></title>
+<meaning><![CDATA[From the DLNA specification: &quot;A DLNA Device Class having home network environmental characteristics, with the role of rendering content it receives after being setup by another network entity.&quot;
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[DLNA Digital Media Server (DMS)]]></title>
+<meaning><![CDATA[A UPnP Digital Media Server that, in addition to being UPnP standard compliant, conforms to the DLNA standard (see www.dlna.org).
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[DMS]]></title>
+<meaning><![CDATA[DLNA Digital Media Server.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[DOCSIS]]></title>
+<meaning><![CDATA[Data Over Cable System Interface Specification; A set of standards for transferring data via cable TV. DOCSIS is managed by Multimedia Cable Network System, an organization formed by four major cable operators.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Dolby Digital]]></title>
+<meaning><![CDATA[AC-3 and Enhanced AC-3 codecs from Dolby (defined in [Digital Audio Compression (AC-3, Enhanced AC-3) Standard (ETSI TS 102366)]).
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Download Guard Time]]></title>
+<meaning><![CDATA[This is the time period for which an asset needs to remain on the VOD servers after the end of the publication window. This is to ensure that any downloads started at the very end of the publication window are able to complete. Note that a degree of reasonableness needs to be applied to this, which may result in a few viewers with very slow connections being excluded.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Download Queue]]></title>
+<meaning><![CDATA[A list of those items that have the status &apos;Scheduled&apos;, &apos;Downloading&apos; or &apos;Available&apos;. These are the statuses that imply future consumption of broadband bandwidth.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Downloading]]></title>
+<meaning><![CDATA[An item that is actively downloading data over the broadband network.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[DRM]]></title>
+<meaning><![CDATA[Digital Rights Management.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[DSM]]></title>
+<meaning><![CDATA[Disk Storage Management; a setting controlling which mode will be used for disk conflict managements.
+Disk Storage Management (mode): a setting that affects how booking-time user disk quota conflicts are checked and reported.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[DTCP]]></title>
+<meaning><![CDATA[Digital Transmission Copy Protection.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[DTH]]></title>
+<meaning><![CDATA[Direct To Home
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[DTT]]></title>
+<meaning><![CDATA[]]></meaning>
+</term>
+<term>
+<title><![CDATA[DUNR]]></title>
+<meaning><![CDATA[Detailed User Navigation Requirements - the document that specifies how the system should look to the viewer.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[DVI]]></title>
+<meaning><![CDATA[Digital Video Interface.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[DVR]]></title>
+<meaning><![CDATA[Digital video recorder. A consumer electronics device that records video in a digital format to a disk drive for subsequent playback. See also PVR.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[E-EDID]]></title>
+<meaning><![CDATA[Enhanced Extended Display Identification Data.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[ECM]]></title>
+<meaning><![CDATA[Entitlement Control Message: is a packet, created by the BCC, which contains information the subscriber access card needs to determine the seed which descrambles the picture.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[EDID]]></title>
+<meaning><![CDATA[Extended Display Identification Data - a Video Electronics Standards Association (VESA) standard data format that contains basic information about a monitor and its capabilities, including vendor information, maximum image size, colour characteristics, factory pre-set timings, frequency range limits, and character strings for the monitor name and serial number.
+The STB uses the attached TV&apos;s EDID information to determine the display settings that can be supported.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[EED]]></title>
+<meaning><![CDATA[Entitlement Expiry Date. In a card entitlement record, date/time on which a given entitlement expires.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[EGT]]></title>
+<meaning><![CDATA[End Guard Time.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[EIT]]></title>
+<meaning><![CDATA[Event Information Table.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[EIT p/f]]></title>
+<meaning><![CDATA[Present/following Event Information Table.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[EIT s]]></title>
+<meaning><![CDATA[Event Schedule Information Table.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[EMM]]></title>
+<meaning><![CDATA[Entitlement Management Message: a packet, created by the ACC, which contains conditional access entitlement data intended for a subscriber access card.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Encrypted Content]]></title>
+<meaning><![CDATA[Content that is encrypted using a DRM mechanism.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[End Guard Time (EGT)]]></title>
+<meaning><![CDATA[See &apos;Guard Time&apos;.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[End Time-Blackout]]></title>
+<meaning><![CDATA[A situation where Sky have prevented a region from viewing a broadcast. Blackout restrictions can block viewers in a certain geographic area, or viewers who fit other criteria defined by a broadcaster, from watching certain programs.
+End Time-Blackouts are time-bound and geographical. For example, Sky may decide to prevent live viewing of a Manchester United vs. Manchester City game in Manchester except on Pub Channels but may still allow recording and playback after the event, with a view to encouraging subscribers to visit a public house to watch the event.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Energy Steering Group]]></title>
+<meaning><![CDATA[The Sky committee, which defines policies on Sky energy usage, both internally and in Sky products.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Entitlement]]></title>
+<meaning><![CDATA[The right to carry out an action, typically the right to view a given service or asset. An entitlement might be given to all subscribers (the right to view free-to-air channels for example) or might require the viewer to make a payment, either for a specific event or for a subscription covering multiple events and/or services.
+A CA-enforced permission, securely maintained in the smartcard or within on-chip security, to view and record content.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[EPG]]></title>
+<meaning><![CDATA[Electronic Programme Guide.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[EPG Timeout Period]]></title>
+<meaning><![CDATA[The period of time that that EPG screens will remain displayed for without any instruction being received from the Viewer. The EPG Timeout Period is [10] minutes long.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[EPG Transponder]]></title>
+<meaning><![CDATA[A satellite transponder that carries programme schedule information for the following 7.25 days.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Episode Number or Running Order]]></title>
+<meaning><![CDATA[Usually a number, created to identify the individual episodes with the same episode title within a series/season e.g. Episode 1.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Episode Title]]></title>
+<meaning><![CDATA[The marketing label given to describe an individual episode as a complement to the Item Name and especially used when the Item is a member of a series, e.g. Bart versus Thanksgiving, The One where Rachel and Ross Kiss, 10am-11am.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[eTV Application]]></title>
+<meaning><![CDATA[Episodic interactive application linked to a TV program event.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[eTV Service]]></title>
+<meaning><![CDATA[Service with which an eTV application is associated.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Event]]></title>
+<meaning><![CDATA[A grouping of elementary broadcast data streams with a defined start and end time belonging to a common service e.g. The Simpsons.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Event Body]]></title>
+<meaning><![CDATA[That portion of an Event between the Scheduled Start Time and the Scheduled End Time. In other words the event itself and not any guard times that precede or follow it.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Exhibition Date]]></title>
+<meaning><![CDATA[The time and date of the first showing of this Primary Asset on a linear channel (i.e., not a repeat). In the case of Primary Assets that are being re-run on the linear schedule the date could be modified.
+Not all Primary Assets may have an exhibition date, where this doesn&apos;t exist an episode or running order is to be presented as defined in the DUNR.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Expiry (of an Asset)]]></title>
+<meaning><![CDATA[This is the time (greater than current date) at which the asset will be removed from the platform and is to be configurable and driven by: 
+(--1--) The deal expiry time
+(--2--) End of publication window
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Expiry End Date]]></title>
+<meaning><![CDATA[The date upon which Anytime assets are forcibly deleted, regardless of disk quota usage.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Expiry Start Date]]></title>
+<meaning><![CDATA[The date upon which Anytime Push assets are first considered by the system for deletion in disk conflict situations.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Expiry Window]]></title>
+<meaning><![CDATA[The time between the Expiry Start Date and the Expiry End Date, during which an associated Anytime asset can be considered for deletion, in the event of an Anytime Disk Quota space conflict.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Extended / Incremental SVOD]]></title>
+<meaning><![CDATA[Refer to standalone monthly VOD subscriptions which give ongoing access to a library of specific VOD content. Introduced as part of the Pull VOD proposition (push VOD cannot offer enough volume to justify a standalone subscription)
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Failed]]></title>
+<meaning><![CDATA[An item that is judged by the system to be irretrievably unavailable, possibly because an attempt to record it during broadcast failed or it has been absent from the headend for [a number] of retries.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Failed Recording]]></title>
+<meaning><![CDATA[A linear recording will be considered &apos;Failed&apos; when it has been terminated providing that less than [10] seconds were recorded between the recording&apos;s Start Guard Time and End Guard Time.
+A PDL recording will be considered &apos;Failed&apos; when it has been terminated providing that less than [10] seconds of the item&apos;s playlist was downloaded.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Fast Channel List]]></title>
+<meaning><![CDATA[An EPG feature enabling the user to quickly navigate through elements of the channel line-up.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Fast-Zapping Optimisation]]></title>
+<meaning><![CDATA[Background tuning to a service that is predicted to be the next service the user will request to view. This tuning is done in order to speed-up the next zapping request.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Favourite Channel]]></title>
+<meaning><![CDATA[A channel listing that has been marked by the viewer as a favourite so that it can be quickly selected from the TV guide.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[FEC]]></title>
+<meaning><![CDATA[See Forward Error Correction
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[FECM]]></title>
+<meaning><![CDATA[Future Entitlement Control Message: data created by FEC and used by the EPG to query entitlements and authorise the purchase of future programmes.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[FED]]></title>
+<meaning><![CDATA[Final Expiry Date. Last date content can be used, regardless of entitlement held by viewer.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Flash Memory]]></title>
+<meaning><![CDATA[Non Volatile Memory - block writable.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Forward Error Correction]]></title>
+<meaning><![CDATA[A system of error control for data transmission, whereby the sender adds redundant data to its messages, also known as an error correction code. This allows the receiver to detect and correct errors (within some bound) without the need to ask the sender for additional data or retransmission.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[FQDN]]></title>
+<meaning><![CDATA[Fully Qualified Domain Name.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Free Preview Period]]></title>
+<meaning><![CDATA[A period of time during which a Viewer may watch a Pay-Per-View item without triggering the charge for it. The Free Preview Period is editorially scheduled for each Pay-Per-View event using time parameters and is independent of when the Viewer starts to watch an event. Typically the Free Preview Period is set for 8 minutes for normal Pay-Per-View programmes, with the first three minutes being adverts and promos.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Free Viewing Period]]></title>
+<meaning><![CDATA[See Free Preview Period.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[FTA Content]]></title>
+<meaning><![CDATA[Free-to-air content; see &apos;Clear Content&apos;.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Full Screen Mode]]></title>
+<meaning><![CDATA[Full Screen Mode is a viewing more where the entire screen is devoted to the programme (broadcast or recorded) being viewed as opposed to being displayed in a window as part of a screen with other content.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Fusion-based Product]]></title>
+<meaning><![CDATA[In the context of the document, &apos;Fusion-Based Product&apos; refers to the STB Software that is built relying on MediaHighway Fusion middleware. It comprises the following software: Snowflake EPG, MediaHighway Middleware and Fusion Operating System.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[FZ Optimisation]]></title>
+<meaning><![CDATA[See &quot;Fast Zapping Optimisation&quot;
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Garbage Collection]]></title>
+<meaning><![CDATA[The process of deleting content that is no longer required by the System from the Instant Rewind buffer as a result of Recording deletion, end of Time-Shifted Playback or truncation of the Instant Rewind buffer at power-up.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Gateway]]></title>
+<meaning><![CDATA[The Gateway (aka Video Gateway) is the UPC Horizon CPE device that not only supports conventional STB features such as receiving and recording linear TV channels, providing VOD, or browsing the programme grid, but also integrates router functionality from Home Network to the UPC Wide Area Network and Internet (hence the term gateway) and supports cable telephony service and other value added services, as described in the present document.
+The Gateway (aka Video Gateway) is the CPE device that supports tuning and PVR functionality as well as integrating router functionality from Home Network to Wide Area Network and Internet (hence the term gateway) 
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[GFX]]></title>
+<meaning><![CDATA[Graphics Engine.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Ghost Booking]]></title>
+<meaning><![CDATA[A booking that was created as part of a series signup but was subsequently cancelled by the viewer in order to resolve a booking clash. The cancelled booking for the series event then becomes a ghost booking. Ghost bookings will not trigger a recording (since the viewer has chosen to cancel that in order to resolve the clash) but they will still trigger the system to book the next event in the series.
+Ghost bookings can be converted back to normal bookings if the clash no longer exists.
+Ghost bookings are only created when a series event is cancelled as part of clash resolution: they are not created if the viewer explicitly deletes the booking for a series event.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[GHN]]></title>
+<meaning><![CDATA[General Home Network; the customer&apos;s already existing home network.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Glitches]]></title>
+<meaning><![CDATA[Undesirable interruptions or artefacts in audio or a video display
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Global Settings]]></title>
+<meaning><![CDATA[System settings (such as Subtitles and Audio Description) which the Viewer can control and apply for all Live viewing and playback.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Gnome]]></title>
+<meaning><![CDATA[A free-standing consumer unit which can be used together with a Sky STB to remotely select and play out the audio from the STB.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Grace Period]]></title>
+<meaning><![CDATA[A period of time during which a customer is not, strictly speaking, entitled to a particular service or asset, but for which Sky extends the entitlement so as to provide continuity of service.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Grace Period, Loss of Signal]]></title>
+<meaning><![CDATA[The period of time beyond the point at which the satellite signal is lost that the customer is allowed to continue to use Sky+ and Anytime (Push and PDL) functionality.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Grace Period, Rental]]></title>
+<meaning><![CDATA[The period of time beyond the end of the Rental Period that the customer is allowed to continue to watch a downloaded VOD Item before the viewer loses his entitlement. This is intended to allow playback started towards the end of the Rental Period to complete.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Guard Time]]></title>
+<meaning><![CDATA[Recording time included with an event, to (a) reduce the risk of the recording being incomplete due to a schedule change, or (b) include content that is known to be broadcast before or after the scheduled event (e.g., the teaser just before the program starts).
+Start Guard Time (SGT) precedes the even.
+End Guard Time (EGT) follows the event.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[GW]]></title>
+<meaning><![CDATA[Gateway.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[HD]]></title>
+<meaning><![CDATA[HD (High Definition) is a display technology that provides picture quality similar to 35 mm. Movies with sound quality similar to that of today&apos;s compact disc. HD generally uses digital rather than analogue signal transmission.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[HD, True]]></title>
+<meaning><![CDATA[See True HD.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[HDCP]]></title>
+<meaning><![CDATA[High-bandwidth Digital Content Protection.
+High Definition Copy Protection.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[HDD]]></title>
+<meaning><![CDATA[HDD (Hard Disk Drive) is a non-volatile storage device which stores digitally encoded data.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[HDMI]]></title>
+<meaning><![CDATA[High Definition Multimedia Interface.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[HDTV]]></title>
+<meaning><![CDATA[High Definition Television.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[HE]]></title>
+<meaning><![CDATA[Headend.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Headend]]></title>
+<meaning><![CDATA[A collection of communication equipment located within a central control centre where incoming signals are amplified, converted, processed and combined for transmission to the Sky STB by satellite or network.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[(H)GW]]></title>
+<meaning><![CDATA[(Horizon) Gateway.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[HH]]></title>
+<meaning><![CDATA[Household.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Hidden Partition]]></title>
+<meaning><![CDATA[See System Disk Quota.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[HN]]></title>
+<meaning><![CDATA[Home Network.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Horizontal Content]]></title>
+<meaning><![CDATA[Content that is not delivered to the user and protected by the broadcaster, but that may be available on the home network, e.g., the user&apos;s own content such as photographs or music, or a video from the Web or personal.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Hot Standby]]></title>
+<meaning><![CDATA[A mode where AV streams are switched off but middleware is still running.
+Power consumption is lower than power consumption in Running mode, because unused devices are closed and corresponding hardware is switched off, if possible.
+The CPE device is able to switch back to Running mode or to perform recording or maintenance phase without delay.
+The CPE device can exit from this mode by pressing the Power/Standby key on the front panel or on the remote control.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[HTTP]]></title>
+<meaning><![CDATA[Hypertext Transfer Protocol.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[HZN]]></title>
+<meaning><![CDATA[Horizon.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[IMM]]></title>
+<meaning><![CDATA[Interactive Main Menu.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Inactive Flash Bank]]></title>
+<meaning><![CDATA[The Flash storage in the STB that is used for background software download to store a new software version.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[In-list Channel]]></title>
+<meaning><![CDATA[Channel with a channel number that appears to the user or is accessible through a direct-access channel (e.g. radio channel).
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Instant Rewind - also known as Review Buffer]]></title>
+<meaning><![CDATA[A buffer which continually captures live content allowing the viewer to rewind and review previously played-out live content in time-shifted playback. The capture buffer may reside in persistent or perishable memory.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Interactive Programme]]></title>
+<meaning><![CDATA[An Interactive Programme is an interactive application which gives the viewer access to an A/V stream that they may watch and, if the application allows, record.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Interactive Services]]></title>
+<meaning><![CDATA[Interactive Services enable viewers to request goods and services via the STB. Interactive Services could include shopping channels, purchasing games, or purchasing goods from advertisements.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Interactive Trigger]]></title>
+<meaning><![CDATA[An Interactive Trigger is an on-screen invitation to start an interactive application.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Internet Metadata Scraping]]></title>
+<meaning><![CDATA[Retrieval of metadata related to a local asset from an Internet source. In the UPC Horizon content, this retrieval is done indirectly through the headend.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Invite Object]]></title>
+<meaning><![CDATA[A broadcast object that can reference an eTV application.
+Typically presented by the Fusion-based Product as an invite pop-up (e.g. &quot;Press OK&quot;) that allows the user to launch the targeted eTV application.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[IOT]]></title>
+<meaning><![CDATA[Invite Object Table.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[IPC]]></title>
+<meaning><![CDATA[IP Client/Zapper.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[IPPV]]></title>
+<meaning><![CDATA[Impulse Pay-Per-View: a one-time programme which can be purchased by the subscriber via the STB using pre-arranged credit from the SMS.
+Impulse pay-per-view; linear TV content that can be purchased and viewed on an impulse basis, i.e., at the time of airing, as opposed to ahead of time.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[IR]]></title>
+<meaning><![CDATA[Infrared.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[ISM]]></title>
+<meaning><![CDATA[Interactive Services Menu.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[ISP]]></title>
+<meaning><![CDATA[Internet Service Provider.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[iSTB]]></title>
+<meaning><![CDATA[Interactive STB.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Item Name]]></title>
+<meaning><![CDATA[The Item Name refers to the name of the Primary Asset associated to this Item e.g. Spiderman, Desperate Housewives.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Item, (VOD)]]></title>
+<meaning><![CDATA[Refers to either a Single Item directly accessible for playback or download in the VOD listings.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Item-Specific Intermittent Failure]]></title>
+<meaning><![CDATA[An item-specific intermittent failure is an error state that can arise in relation to Anytime PDL downloads. It means that an intermittent error relating to a particular item of content has occurred that may potentially be resolved by retrying. The specific conditions that lead to this state are:
+HTTP_400_BAD_REQUEST
+HTTP_API_E_HTTP_RANGE_ERROR
+HTTP_API_E_TOO_MANY_REDIRECTS
+VIEWER_STOPPED_DISK_CONFLICT
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Item-Specific Terminal Failure]]></title>
+<meaning><![CDATA[An item-specific terminal failure is an error state that can arise in relation to Anytime PDL downloads. It means that an error that cannot be resolved has occurred that relates to a particular item of content, and that that item cannot therefore be retrieved. The specific conditions that lead to this state are:
+BOOKING_EXPIRED
+BOOKING_MOVED
+HTTP_404_NOT_FOUND
+HTTP_405_METHOD_NOT_ALLOWED
+HTTP_406_NOT_ACCEPTABLE
+HTTP_408_REQUEST_TIMEOUT
+HTTP_410_GONE
+HTTP_411_LENGTH_REQUIRED
+HTTP_412_PRECONDITION_FAILED
+HTTP_413_REQUEST_ENTITY_TOO_LARGE
+HTTP_414_REQUEST_URI_TOO_LONG
+HTTP_415_UNSUPPORTED_MEDIA_TYPE
+HTTP_416_REQUESTED_RANGE_NOT_SATISFIABLE
+HTTP_417_EXPECTATION_FAILED
+HTTP_API_E_UNSUPPORTED_PROTOCOL
+HTTP_API_E_URL_MALFORMAT
+HTTP_FAILURE_TO_RETRIEVE_URIS
+HTTP_WRONG_NFF_INDEX_FORMAT
+HTTP_WRONG_NFF_TOC_FORMAT
+IMPORT_FAILED
+MAX_FILE_SIZE_EXCEEDED
+RECORDED_CONTENT_MISSING
+UNKNOWN_ERROR
+UNSUPPORTED_CONTENT
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Keep Attribute]]></title>
+<meaning><![CDATA[An attribute of a booking or a recording. Bookings and recordings with Keep set to true have higher priority in the resolution of disk quota conflicts and tuner conflicts, when compared with bookings and recordings whose Keep attribute is set to false.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[LAN]]></title>
+<meaning><![CDATA[Local Area Network.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Last Viewed Position (LVP)]]></title>
+<meaning><![CDATA[For an item in the Sky+ Planner, the time (offset) at which the most recent viewing of the item ended.
+For Anytime PDL the entire playlist constitutes the &apos;item&apos;. 
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[LCI]]></title>
+<meaning><![CDATA[LCM Conversion Information.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[LCM]]></title>
+<meaning><![CDATA[Local Content Message.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[LCN]]></title>
+<meaning><![CDATA[Logical Channel Number.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[LED]]></title>
+<meaning><![CDATA[Light Emitting Diode.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Linear Channel]]></title>
+<meaning><![CDATA[A Linear Channel is a &apos;traditional&apos; broadcast channel whose content and schedule is determined by the broadcaster, as opposed to content that can be accessed by the viewer at a time of their own choosing via a VoD service for example.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Linear Programme]]></title>
+<meaning><![CDATA[A Linear Programme is one that is broadcast over the air at a time determined by the broadcaster, as opposed to content that can be accessed by the viewer at a time of their own choosing via a VoD service for example.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Live Pause]]></title>
+<meaning><![CDATA[Freeze viewing of a live streaming source, in order to view future content of that source when more convenient.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Live Pause Point]]></title>
+<meaning><![CDATA[The time at which Review Buffer playback mode is entered. For a given playback session, the LP Point is fixed. The initial playback position is set to the LP Point. However, the playback position changes once playback (in either direction) begins.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Live TV]]></title>
+<meaning><![CDATA[Live TV refers to Live television consumed at the point of broadcast rather than in playback.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Live TV Viewing Activity]]></title>
+<meaning><![CDATA[An activity that includes viewing a live TV broadcast channel (in full/partial screen).
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Local Network Error]]></title>
+<meaning><![CDATA[A local network error is an error state that can arise in relation to Anytime PDL downloads. It means that the set-top box does not have a connection to its local router. The specific conditions that lead to this state are:
+BROADBAND_MESSAGE_TYPE_ETHERNET_UNPLUGGED
+BROADBAND_MESSAGE_TYPE_CONNECTION_FAILURE
+CONNECTION_LOST
+HTTP_NETWORK_LINE_DISCONNECTED
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Local NIT]]></title>
+<meaning><![CDATA[The NIT Other table whose Network ID matches the locale where the CPE is provisioned and installed.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Local Settings]]></title>
+<meaning><![CDATA[System settings (such as Subtitles and Audio Description) which the Viewer can control and apply for the current Live viewing or playback session. Local settings will reset to the Global settings value when the Viewer changes the channel or ends the current playback session.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Locale]]></title>
+<meaning><![CDATA[A set of parameters defining the country_code, region_code, city_code to be used, especially during first installation at the geographical location where the CPE is to be used. Such parameters are provided by the Personalisation Store.
+A set of parameters defining the geographical location where the CPE is to be used. Such parameters are provided by the UPM.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Lock]]></title>
+<meaning><![CDATA[The facility to &apos;lock&apos; a recording in the Sky+ Planner so that it cannot be played back unless the correct PIN is entered first.
+The facility to &apos;lock&apos; a recording so that it cannot be played back unless the correct PIN is entered first.
+Locking an item does not prevent it being deleted from the Planner without a PIN - in other words it should not be confused with the &apos;Keep&apos; setting.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Loop-through]]></title>
+<meaning><![CDATA[The TV SCART mode whereby the VCR SCART output is routed through to the TV SCART.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Loss of Signal Grace Period]]></title>
+<meaning><![CDATA[See Grace Period, Loss of Signal.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Low Battery Indicator]]></title>
+<meaning><![CDATA[A graphic displayed on screen to inform the Viewer that Remote Control batteries are running low.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Lukewarm Standby]]></title>
+<meaning><![CDATA[A mode of the Gateway where video processing capabilities are switched off, but networking capabilities remain active
+Waking up from this mode takes longer than waking up from &quot;Hot Standby,&quot; possibly as long as from a Power Off state.
+The CPE device can exit from this mode by pressing the Power/Standby key on the front panel or on the remote control. Timer events can also wake up the CPE device, for maintenance phase or for scheduled recordings, if the CPE device supports recording.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Macrovision]]></title>
+<meaning><![CDATA[A long-standing video stream copy protection mechanism targeted at VCRs.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Manually Added Channel]]></title>
+<meaning><![CDATA[An additional channel that has been manually added by a Viewer. There channels do not have an assigned channel number.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[MDS]]></title>
+<meaning><![CDATA[Message Delivery System.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[MED]]></title>
+<meaning><![CDATA[Maximum Entitlement Date. In a card entitlement, the last expiry date at which PPV entitlements can be purchased or viewed for the first time.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Media Center]]></title>
+<meaning><![CDATA[The CPE functionality that allows the viewer to access horizontal content.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Media Center Catalogue]]></title>
+<meaning><![CDATA[The set of metadata for content hosted on discovered DMSs on the LAN. The metadata is stored in a database, so that it is possible to browse the content, e.g. via CDS service. The Media Center Catalogue can include metadata from the LAN, and supplementary metadata retrieved from the headend.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[MH]]></title>
+<meaning><![CDATA[MediaHighway.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[MiniTV]]></title>
+<meaning><![CDATA[A feature that enables the Viewer to view the TV Guide while watching either Live TV or Playback as quarter screen. The Video content is scaled to fit the MiniTV window.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Modem]]></title>
+<meaning><![CDATA[Modulator/demodulator. Device for converting digital data to audio tones, and visa versa, for transmission via an analogue channel.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Monthly Pay-Per-View Allowance]]></title>
+<meaning><![CDATA[The amount of money which a viewer may spend on Pay-Per-View purchases before the STB will insist on payment authorisation being obtained from Sky before allowing any further purchases.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[MPEG]]></title>
+<meaning><![CDATA[Moving Pictures Expert Group.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[MPEG Audio]]></title>
+<meaning><![CDATA[Within the context of this document, &quot;MPEG audio&quot; refers to all the broadcast MPEG audio formats supported by the product (MPEG-1 Layer II, MPEG-2/4 AAC-LC, MPEG-4 HE-AAC/HE-AACv2).
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[MPEG-2]]></title>
+<meaning><![CDATA[Refers to the second set of MPEG standards for the encoding and transmission of video and audio data and Programme Specific Information (PSI) related to the MPEG-2 data multiplex.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[MPIN]]></title>
+<meaning><![CDATA[Master PIN Code; the PIN code (unique per household) that is used to control general CPE features, such as unlocking parental control block events, and some per-profiles settings such as resetting a profile PIN code.
+For Cogeco the Master PIN and the Parental PIN are the same.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Multiroom]]></title>
+<meaning><![CDATA[This is the model for using Sky TV in one household at more than one location.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[MW]]></title>
+<meaning><![CDATA[Middleware.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Network Processor]]></title>
+<meaning><![CDATA[The Network processor is the processor within the CPE device in charge of features related to Cable modem, WAN/LAN routing, High Speed Data and VoIP transmission.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[NIT]]></title>
+<meaning><![CDATA[Network Information Table. The NIT contains information which defines the physical parameters and services carried within the transport streams of the network and enables the decoder to navigate within and among all the services of the network.
+NIT-own refers to the NIT on the currently tuned transponder and NIT-other to NITs on other transponders.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Non-Viewable Recording]]></title>
+<meaning><![CDATA[A Recording that is scheduled on a channel that is not accessible to the Viewer either by surfing or via the TV Guide. For example, a recording of a child event or of an event on an adult channel with adult channel viewing disabled.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[NPD]]></title>
+<meaning><![CDATA[See SPD.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[NVOD]]></title>
+<meaning><![CDATA[Near Video On Demand: a way to offer multiple showings of movies or events. The showings are timed to start at set intervals, determined by the broadcaster. Each showing of a movie or event can be sold to subscribers separately.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[OECM]]></title>
+<meaning><![CDATA[Offer Entitlement Control Message.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Offer]]></title>
+<meaning><![CDATA[See Publication Window.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[OIG]]></title>
+<meaning><![CDATA[On-Demand Information Generator.
+Information on PDL items is held in an online VOD Catalogue Server (VCS). The OIG provides the interface to this with the OIG client in the STB requesting information from the back-end OIG server (which in turn accesses the VCS) over a network connection.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[On Demand]]></title>
+<meaning><![CDATA[Resident Guide branding for The Store
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[OPPV]]></title>
+<meaning><![CDATA[Order-ahead (phone-ahead) Pay-Per-View: a one-time programme which is purchased by the subscriber by phoning the SMS. The entitlement is sent to the subscriber in an over-air packet.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Orphaned Entry]]></title>
+<meaning><![CDATA[An orphaned entry is a recording which exists on the STB&apos;s disk but which does not have an entry in the Planner listing.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[OSD]]></title>
+<meaning><![CDATA[On-Screen Display.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[OUI]]></title>
+<meaning><![CDATA[Organization Unique Identifier.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Out-of-list Channels]]></title>
+<meaning><![CDATA[Channels of a service type defined in the table &quot;Service Types Supported by the Fusion-based Product&quot; with no channel number, and those TV services eliminated from the in-list due to SD/HD substitution.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Output Mode]]></title>
+<meaning><![CDATA[The TV SCART mode whereby the TV SCART output is generated by the STB.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Pairing]]></title>
+<meaning><![CDATA[Pairing also denotes the association of an RF4CE Remote Control with a single CPE in order to prevent a CPE from being controlled spuriously from unauthorized Remote Controls (e.g. from the neighbour).
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[PAIT]]></title>
+<meaning><![CDATA[Private Application Information Table.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Parent SMS]]></title>
+<meaning><![CDATA[A card&apos;s Parent SMS is the SMS which first enabled the card. Certain actions, such as disabling a card, can only be done by a card&apos;s Parent SMS. However, subscribers can purchase Pay-Per-View events offered for sale by SMSs other than their Parent SMS.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Parental Rating]]></title>
+<meaning><![CDATA[Each program is assigned a Parental Rating level. The subscriber has local control of access to programmes of various Rating levels using the PINs.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Partial Recording (Part Rec)]]></title>
+<meaning><![CDATA[An item that has been partially recorded or downloaded, either due to viewer cancellation or system issues such as full disk quota or disconnection from the network.
+A linear recording will be considered &apos;Part Recorded&apos; when it has been terminated providing that it is does not satisfy the conditions for a Successful Recording and at least [10] seconds were recorded between the recording&apos;s Start Guard Time and End Guard Time.
+A PDL recording will be considered &apos;Part Recorded&apos; when it has been terminated providing that it is does not satisfy the conditions for a Successful Recording and at least [10] seconds of the item&apos;s playlist was downloaded.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[PAT]]></title>
+<meaning><![CDATA[Program Association Table.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Pay-Per-View (PPV)]]></title>
+<meaning><![CDATA[An Item which must be paid for by the Viewer on an individual basis rather than being part of a subscription entitlement.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[PC Event]]></title>
+<meaning><![CDATA[A &quot;Parental Control event&quot;, AKA &quot;PC event,&quot; is an event whose Parental Rating Descriptor in EIT p/f, defines a rating that equals or exceeds the Parental Level set by the user.
+A &quot;Parental Control event&quot;, AKA &quot;PC event,&quot; is an event whose Parental Rating metadata, defines a rating that equals or exceeds the Parental Level set by the user.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[PDL Catalogue]]></title>
+<meaning><![CDATA[Headend database accessed by part of the EPG to present the current PDL listings. A given subscribers VOD catalogue is a subset (view) of the head end master listing of all available PDL content, it is served by the VOD Catalogue Server and used by the STB.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[PDL Service]]></title>
+<meaning><![CDATA[The term &apos;PDL Service&apos; refers to the infrastructure required to deliver Progressive Download VOD content to viewers. The term encompasses the headend content servers and the network infrastructure required to allow viewers&apos; customer premises equipment to establish a link with the content servers.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[PDL Service Gate]]></title>
+<meaning><![CDATA[The &apos;PDL Service Gate&apos; refers to the minimum requirements that a customer must meet in order to be eligible to use the Anytime Progressive Download (PDL) service.
+The requirements for customers to meet the PDL Service Gate are:
+(--1--) An HD PVR
+(--2--) A subscription to the Sky Broadband service.
+The service gate is to be managed as a new CA service in a similar way to Sky+ in order that access can be controlled by the broadband service that the customer holds.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[PECM]]></title>
+<meaning><![CDATA[Personal ECM.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Personal Bits]]></title>
+<meaning><![CDATA[Personal Bits in each subscriber access card contain information about the subscriber. This information, relating to hobbies, profession or other categories as defined by Sky, can be used to target promos or other advertising, send personalised Email or for other functions.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[PID]]></title>
+<meaning><![CDATA[Packet Identifier.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[PIN]]></title>
+<meaning><![CDATA[Personal Identification Number (password) used to control access to programming and set purchase limits. Each subscriber household can activate several PINs, and may use them to set individual Parental Rating or Spending limits for each family member.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[PiP]]></title>
+<meaning><![CDATA[Picture-in-Picture.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[PKN]]></title>
+<meaning><![CDATA[Private Kabel Netz (Private Cable Network).
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Planner Retention Period]]></title>
+<meaning><![CDATA[The Planner Retention Period is a configuration setting expressed in days which determines how long an Anytime PDL item will be retained in the Planner before it expires. It is obtained from the headend.
+The Planner Retention Period is not the sole determinant of when an item will be deleted: it can be overridden by an item&apos;s Rental Period or by its Offer Expiry Date for example.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Planner Shortcut]]></title>
+<meaning><![CDATA[A Single Item (collapsed with others where appropriate) which is directly accessible from the Sky+ Planner. Single Items whether Pay Per View or otherwise can be added to the Planner at the request of the viewer.
+The disk space taken by Planner Shortcuts can be considered negligible.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Play Indicator]]></title>
+<meaning><![CDATA[A graphic displayed on screen to show the viewer that playback of recorded material is in progress. May carry additional information such as an indication of position within the recording, and the status of trick modes such as pause, fast-forward or rewind speed and so forth.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Playback]]></title>
+<meaning><![CDATA[This feature provides the Viewer the ability to view content stored on their PVR.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Playback Banner]]></title>
+<meaning><![CDATA[A feature of the UI that enables the user to get information and perform actions in the context of a playback of either the Review Buffer, a recording or a VOD asset.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Playback Point]]></title>
+<meaning><![CDATA[In respect of a download, the point at which sufficient of it has been downloaded that playback can commence with the expectation that downloading will finish before playback. (This is important when the line speed is less than the bitrate of the asset.) The determination is made by observing the progress of the download, in order to account for variable line conditions and variable load conditions on the headend servers.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Playlist]]></title>
+<meaning><![CDATA[An ordered sequence of one or more Assets made at most of a Primary Asset and zero or more Secondary Assets and obtained by the users from the selection of a Catalogue Item to download.
+When played back, the playlist must provide a seamless presentation of all the assets to the user masking the transition between each file and inserting a 1s black material in case of aspect ratio transition for SD (4/3 &lt;-&gt; 16/9)
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[PMT]]></title>
+<meaning><![CDATA[Programme Map Table. The PMT identifies the location of all the elementary stream packets which make up each programme in the stream and the location of the Programme Clock Reference (PCR) signals for the service. It also contains the standard MPEG 2 descriptors for each elementary stream which allows the decoder to determine whether or not it has sufficient capacity to decode and display a selected service.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Polarisation]]></title>
+<meaning><![CDATA[A property of transverse waves which describes the orientation of the oscillations in the plane perpendicular to the wave&apos;s direction of travel. 
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[PoP]]></title>
+<meaning><![CDATA[Point of Presence. A facility (usually a modem bank) for accepting incoming calls from STBs or other devices such as PCs.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Power Cycle Delay]]></title>
+<meaning><![CDATA[A guard delay time that takes into account the time required to switch to Lukewarm or Cold Standby and then switch to Hot Standby in order to avoid missing the deadline for a recording that might be scheduled during this period. For example, if a recording should start within less than such a delay, it is useless to enter a deeper standby mode as the time it takes might cause the recording to start late.
+Currently, the power cycle delay is set to [10] minutes.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[PPIN]]></title>
+<meaning><![CDATA[Profile PIN Code; a PIN code that is used to protect access to a profile. When a PPIN is defined for a profile, it shall be used in order to log in to the associated profile.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[PPV]]></title>
+<meaning><![CDATA[See Pay-Per-View.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Primary Asset]]></title>
+<meaning><![CDATA[The Primary Asset is the key content that the viewer expects to view once they have selected an Item in the Catalogue.
+Primary assets associated to a catalogue item will remain unchanged (e.g. if an advert is included within the Primary Asset, it will remain there) until the Asset is re-ingested.
+Some of the Primary Asset metadata will therefore typically be used in the catalogue to describe the item (e.g. title, synopsis&hellip;)
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Primary Location]]></title>
+<meaning><![CDATA[Refers to the TV terminal that is connected to any of the STB&apos;s audio/video outputs except for the RF2 port. The viewer&apos;s commands at the Primary Location are received via the IR receiver on the front panel or manually via the front panel itself.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[PRM]]></title>
+<meaning><![CDATA[Persistent Rights Management (Nagra DRM proprietary implementation).
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Product (Store)]]></title>
+<meaning><![CDATA[Purchasable/subscribable entity that encompasses one or multiple assets (i.e. several individual content items).
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Product (VOD)]]></title>
+<meaning><![CDATA[A VOD product is an available or purchasable unit of the VOD Store. VOD products include these different types:
+Free-of-Charge
+SVOD
+TVOD
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Program Association Table (PAT)]]></title>
+<meaning><![CDATA[The Program Association Table (PAT) is the first information to be extracted from the selected or default transport stream available when the IRD is first switched on. It contains the location of the Network information table and it will locate the corresponding Program Map Table for each service in the multiplex.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Programme]]></title>
+<meaning><![CDATA[A sequence of one or more events under the control of a broadcaster e.g. news show, entertainment show.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Programme Catalogue (PCAT)]]></title>
+<meaning><![CDATA[The Programme Catalogue is the EPG component that maintains a database of booked and recorded programmes on the STB&apos;s hard disk, allowing new bookings to be added to the database, populating the database with information about the programmes and allowing clients to access, filter and sort programmes within the database, together with updating the properties of individual programmes.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Programme Details]]></title>
+<meaning><![CDATA[See &apos;Supplementary Programme Information.&apos;
+This term has sometimes been used as a synonym for &apos;Synopsis&apos; but that usage is not employed here.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Programme Scheduler (PSCHED)]]></title>
+<meaning><![CDATA[The Programme Scheduler is the EPG component responsible for managing activities that are triggered by timing events, such as starting a booked recording at the appropriate time.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Promo]]></title>
+<meaning><![CDATA[A Promo is a promotional message displayed on the Viewer&apos;s screen to advertise a programme or service. Promos may be interactive in which case the Viewer can trigger an action directly by responding to the Promo.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Promotion (Store Promotion)]]></title>
+<meaning><![CDATA[A promotion allows a user to purchase or to subscribe at a promotional price.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Provider Brand]]></title>
+<meaning><![CDATA[Provider Brand refers to a label associated with an asset to brand it and/or provide more information about the origin of the content. It will typically be a channel name.
+The Provider Brand also gives an indication to the viewer of their entitlement to the asset.
+Associated with a subscription package as a many to 1 relationship. Used in Anytime TV listings as one categorisation of assets.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Provider Group]]></title>
+<meaning><![CDATA[A Provider Group is a mechanism for capturing an association between one or more Providers&apos; content. For example, a Provider Group called &apos;Sky Entertainment&apos; could encompass the content of Sky One, Sky Two, and Sky Three.
+Formerly referred to as &apos;Super Provider&apos; and/or &apos;Umbrella Provider&apos;.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[PS]]></title>
+<meaning><![CDATA[Personalisation Store.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Publication Window]]></title>
+<meaning><![CDATA[A Publication Window is the period of time the same unchanged Single Item is available and selectable for playback in the VOD catalogue. During this period of time, the Single Item may also be inserted into the Planner. The item may be played from the Planner even if the Publication Window has closed, as long as the viewer has downloaded beforehand and starts playback before the end of the Rental Period or entitlement end. If the price of an Item changes, this is managed via creating a new Publication Window.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Purchase (Store)]]></title>
+<meaning><![CDATA[A purchase has limited rental duration (i.e. &quot;buy&quot; model), while a subscription is valid until the end-user cancels it. A subscription may also have a limited entitlement period, for instance trials.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Purchase Period]]></title>
+<meaning><![CDATA[A configurable period of time, set at the headend, during which a Viewer is permitted to purchase a pay-per-view programme. Typically this will be several minutes into a Pay-Per-View programme and allows a viewer to begin watching it even if they have missed the start. After the end of the purchase period viewers will not be able to purchase or view the programme. This ensures that people are not charged to view programmes if they have already missed a significant part of them.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[PVOD Asset Group]]></title>
+<meaning><![CDATA[A PVOD Asset Group is a means of grouping Push VOD assets according to some characteristic. For example, there is an asset group used to provide content to SD-only STBs and another for HD-capable boxes.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[PVR]]></title>
+<meaning><![CDATA[A Personal Video Recorder (PVR) is a device that records video without videotape to a hard drive-based digital storage medium.
+Personal video recorder. See DVR.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[PVR Mode]]></title>
+<meaning><![CDATA[When the Fusion-based Product initializes the CPE device in &quot;PVR mode&quot;, the user is allowed to access the features related to the PVR, such as time-shifting, recording (digital) or playback of recording. In such a case, the analogue recording features which are supplied in &quot;zapper mode&quot; are no more available to the user. The analogue recording is replaced by the digital recording capabilities.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[QAM]]></title>
+<meaning><![CDATA[Quadrature Amplitude Modulation.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Ranked List]]></title>
+<meaning><![CDATA[A presentation process to enable editorial Recommendations (or Highlights) to be presented in a specific order.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[RB; Review Buffer]]></title>
+<meaning><![CDATA[A facility that enables time-shifted viewing, with functionality of live-pause, review, and saving of contents to permanent event recordings.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[RBD]]></title>
+<meaning><![CDATA[Review Buffer Depth - the depth (duration) of the RB as defined by the viewer (e.g. 60 minutes).
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[RC]]></title>
+<meaning><![CDATA[Remote Control.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[RCU]]></title>
+<meaning><![CDATA[Remote Control Unit.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Recorded]]></title>
+<meaning><![CDATA[An item that has been fully downloaded or recorded by the viewer.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Recording]]></title>
+<meaning><![CDATA[A recording of any of the following types which a viewer has requested be saved to the STB&apos;s disk:
+A scheduled programme event
+A manual (aka time-based) recording
+An Anytime Push VOD recording
+An Anytime PDL recording (aka download)
+The term does NOT cover material accumulated as part of the Review Buffer.
+A completed recording will have a status which will be one of the following:
+Successful recording
+Partial recording
+Failed recording
+See the relevant entries in this glossary for definitions of these states.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Recovered Recording]]></title>
+<meaning><![CDATA[A recovered recording is an incomplete recording which was interrupted by the STB being powered off (or crashing) during the recording. The recording will remain on the STB disk and will be dealt with when the STB is next powered up.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Reminder]]></title>
+<meaning><![CDATA[The Reminder feature allows viewers to mark a programme in the schedule and have the STB warn then one minute before the programme is due to start so that they don&apos;t forget to watch it. A reminder appears as on on-screen display: it is not a recording and is therefore available on both Digibox and Sky+ STBs. Reminders can be set for individual programmes and for series.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Remote Network Error - OIG or CDN]]></title>
+<meaning><![CDATA[An OIG or CDN remote network error is one which means that it is access to the Anytime PDL catalogue which is the problem: other elements of the network may still be functioning correctly. The specific conditions that lead to this state are:
+HTTP_500_INTERNAL_SERVER_ERROR
+HTTP_501_NOT_IMPLEMENTED
+HTTP_502_BAD_GATEWAY
+HTTP_503_SERVICE_UNAVAILABLE
+HTTP_504_GATEWAY_TIMEOUT
+HTTP_505_HTTP_VERSION_NOT_SUPPORTED
+HTTP_CONNECTION_ERROR
+HTTP_COULDNT_CONNECT
+HTTP_RECV_ERROR
+HTTP_GOT_NOTHING
+HTTP_PARTIAL_FILE
+HTTP_SEND_ERROR
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Remote Network Error - TCP]]></title>
+<meaning><![CDATA[HTTP_COULDNT_RESOLVE_HOST
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Rental Grace Period]]></title>
+<meaning><![CDATA[See Grace Period, Rental.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Rental Period]]></title>
+<meaning><![CDATA[The time period (i.e. not time and date) for which a purchased Pay-Per-View item can be viewed before a further purchase is required. This is configurable at the Item level.
+There are two rental types:
+True Rental - Available to view for a fixed number of hours (either 24 or 48 depending on the agreement with the rights-holder) after first playback of Primary Asset
+Fixed Rental - Available to view for a fixed number of days from time of purchase (expiry occurs at midnight on final day)
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Resident Guide]]></title>
+<meaning><![CDATA[The embedded navigator (sometimes called resident application, or EPG). The resident guide is the means through which the user can interact with the system. The Graphical appearance of the resident guide is described in GIS and screens documents.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Resized Video Mode]]></title>
+<meaning><![CDATA[AKA MiniTV. A mode where the CPE presents video content (VOD, live, or recorded) that doesn&apos;t occupy the total screen real estate, but only a portion of it, hence the term &apos;resized&apos;.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Restart TV / Startover TV]]></title>
+<meaning><![CDATA[A service whereby, the customer can &quot;rewind&quot; and watch from the beginning a programme that is currently broadcast live on a linear TV channel. Restart TV requires that the assets are recorded and available for playout immediately after the broadcast has started. This necessitates acquisition from live feeds, or offline in advance of broadcast, to ensure timely availability on the VOD platform. The customer has visibility on Restart TV while watching a live programme that is available as Restart TV.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Resume]]></title>
+<meaning><![CDATA[The ability of the viewer to resume a download that was previously cancelled. Strictly speaking, the item is re-scheduled and therefore has to wait for any other current download to complete before restarting.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Review]]></title>
+<meaning><![CDATA[See &apos;Time-shift mode&apos;.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Review Buffer]]></title>
+<meaning><![CDATA[Review Buffer - a Darwin facility that enables time-shifted viewing, with functionality of live-pause, review, and save to permanent recording (SFRB).
+Review Buffer - a CPE facility that enables time-shifted viewing, with functionality of live-pause, review, and save to permanent recording (SFRB).
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Review Buffer Depth]]></title>
+<meaning><![CDATA[The maximum allowed duration of the Review Buffer. In the Fusion-based Product, this is configured as [180 minutes] and may not be changed. After the Review Buffer reaches this value, the oldest content in the Review Buffer will be &quot;trimmed&quot; (deleted) to make room for the newest (live) content.
+The maximum allowed duration of the Review Buffer. In the Fusion-based Product, this is configured as [120 minutes] and may not be changed. After the Review Buffer reaches this value, the oldest content in the Review Buffer will be &quot;trimmed&quot; (deleted) to make room for the newest (live) content.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Review Buffer Split]]></title>
+<meaning><![CDATA[The situation when the end of the RB play buffer is set at a specific point, but the RB record buffer continues to record additional content.
+A split will occur no more than once in a TS playback session.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[RF]]></title>
+<meaning><![CDATA[Radio Frequency.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[RF4CE]]></title>
+<meaning><![CDATA[Radio frequency for consumer electronics; the ZigBee RF4CE standard defines an RC network that defines a simple, robust and low-cost communication network that allows wireless connectivity in applications in the CE domain. [ZigBee Alliance: ZigBee RF4CE Specification v1.01, January 2010]
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Rolling Rental]]></title>
+<meaning><![CDATA[An implementation of multiple Fixed Expiry Rentals, in which the fixed expiry is updated every 24 hours; this provides, in effect, a rental starting at the previous midnight, and ending at a midnight at or after the rental period expiry. By using Rolling Rentals, True Rentals can be simulated for periods of longer than 24 hours, without changing the offer for the VOD item.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Running Mode]]></title>
+<meaning><![CDATA[Aka &quot;Power On&quot;; In this mode, CPE device is fully operable; it can react to user stimuli and allows to watch and record linear TV or VOD as well as available recordings on the local disk or on the Home Network, or to use the Resident guide or any other available application.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Running Order]]></title>
+<meaning><![CDATA[See Episode Number.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[S-Video]]></title>
+<meaning><![CDATA[Separate video or Y/C.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Sample]]></title>
+<meaning><![CDATA[A group of CPEs that all share the following:
+Collect the same information
+Have the same forwarding parameters
+Have the same configurable timeouts
+May be addressed as a group in order to update one of the above
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Save from Review Buffer]]></title>
+<meaning><![CDATA[Saving an event from the Review Buffer to more permanent disk storage, for later playback by the Viewer. The SFRB operation leaves the event content intact in the Review Buffer.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[SBM]]></title>
+<meaning><![CDATA[System Booking Management.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[SBO]]></title>
+<meaning><![CDATA[Sky Box Office.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[SCART (connector)]]></title>
+<meaning><![CDATA[The SCART (Syndicat des Constructeurs d&apos;Appareils Radior&eacute;cepteurs et T&eacute;l&eacute;viseurs) connector is used for combined audio and video connections. The 21 pin connector is also known as P&eacute;ritel connector or Euroconnector. A formal description is given in the CENELEC EN 50 049-1:1989 standard or in the IEC 933-1 standard.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Scheduled (for Download)]]></title>
+<meaning><![CDATA[An item which is active within the download list and will begin downloading when it is the topmost &apos;active&apos; item and the previous active item is stopped.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Scheduled End Time]]></title>
+<meaning><![CDATA[The time at which a Linear Programme is scheduled to end. 
+The Scheduled End Time is determined by either SKEVT or EIT information: if the Add to End of Recording is set to a manual value (for instance, &apos;1 minute&apos;) the SKEVT end time is used; if the Add to End of Recording is set to &apos;Automatic&apos; the earlier of either the SKEVT or EIT (if available) end time is used.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Scheduled Start Time]]></title>
+<meaning><![CDATA[The time at which a Linear Programme is scheduled to begin.
+The Scheduled Start Time is determined by either SKEVT or EIT information: if the Add to Start of Recording is set to a manual value (for instance, &apos;1 minute&apos;) the SKEVT start time is used; if the Add to Start of Recording is set to &apos;Automatic&apos; the earlier of either the SKEVT or EIT (if available) start time is used.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[SCMS]]></title>
+<meaning><![CDATA[Subscriber Card Management System.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[SCR]]></title>
+<meaning><![CDATA[Single Cable Router.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Scrambled Content]]></title>
+<meaning><![CDATA[Broadcast content that is scrambled using a CA mechanism.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[SD]]></title>
+<meaning><![CDATA[Standard Definition (video).
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[SDT]]></title>
+<meaning><![CDATA[Service Descriptor Table. The SDT contains information on the characteristics of all services within a single transport stream or for all streams in a network. The information contains names, in text form of the service provider with a description of the service type (i.e. TV, Radio, teletext, data, NVOD, etc.)
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[SDV]]></title>
+<meaning><![CDATA[Switched Digital Video
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Search and Scan Banner]]></title>
+<meaning><![CDATA[This feature allows the Viewer to find out what&apos;s playing on another channel without changing the channel being viewed.
+The banner appears at the base of the TV screen without interfering with current viewing and disappears automatically or on Viewer request after making available the programme schedule across all channels.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Secondary Asset]]></title>
+<meaning><![CDATA[Secondary assets refer to all the other material that makes up a Playlist - except the primary asset. They are typically ad clips, promo, bumper&hellip;
+Unlike primary assets, secondary assets associated with catalogue items can change.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Secondary Location]]></title>
+<meaning><![CDATA[Refers to the TV terminal that is connected to the 2nd RF connection on the STB. The STB control for the Secondary Location is passed to the STB via the RF2 output.
+Typical uses for this configuration are accessing the STB from another room using an RF TV link, or using a Sky Gnome to listen to the STB&apos;s audio output remotely.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[S&eacute;lectif Package]]></title>
+<meaning><![CDATA[A package of channels, in which the subscriber may replace (SWAP) channels from a broadcaster-defined selection
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Series Booking]]></title>
+<meaning><![CDATA[A series booking is the entity that records the fact that a viewer has requested the STB to book a reminder or recording for all episodes of a series by creating a series link. The series booking records information about the booking (see &apos;Series Properties&apos;) and ensures that the STB has the information it needs to propagate bookings even when no actual episodes are visible in the schedule.
+A series booking is the entity that records the viewer request to continuously book each episode of a series. The series booking contains information about the series as an entitiy as opposed to individual bookings of the different episodes. 
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Series Link Information]]></title>
+<meaning><![CDATA[The information that allows an event to be identified as part of a series. This essentially consists of a unique identifier for the series and a link flag to indicate whether further series events exist.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Series Number or Season]]></title>
+<meaning><![CDATA[An editorial label allocated by the creator of the content, to identify a number of single Items as related. Usually a number, created to distinguish programmes with the same name, e.g. Series 1, 2005 Season.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Series Properties]]></title>
+<meaning><![CDATA[Information describing a Series Booking. The properties are:
+whether the booking is for a reminder or a recording
+whether &apos;Keep&apos; should be applied to recordings made as part of the series
+whether &apos;Lock&apos; should be applied to recordings made as part of the series
+which area of the STB disk (the Disk Quota) should be used to capture recordings made as part of the series.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Service]]></title>
+<meaning><![CDATA[A sequence of programmes under control of a broadcaster which can be broadcast as part of a schedule
+A sequence of programmes under the control of a broadcaster that can be broadcast as part of a schedule (DVB terminology). Often used as a replacement for channel. In addition to audio, subtitle and video streams, a service can carry applications code and their data. When not used in the context of a DVB channel, &apos;service&apos; refers to a set of related software functionalities, as per a more common definition.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Service Plan]]></title>
+<meaning><![CDATA[The service plan is composed of the in-list and out-of-list channels. All services with a service type defined in the table &quot;Service Types Supported by the Fusion-based Product&quot; are stored in the service plan.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[SFRB]]></title>
+<meaning><![CDATA[Save from Review Buffer.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[SGT]]></title>
+<meaning><![CDATA[Start Guard Time.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Showcase]]></title>
+<meaning><![CDATA[A presentation of one or more thumbnails associated with a specific selectable option within the UI.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Showcase]]></title>
+<meaning><![CDATA[Showcase is a term used for the presentation of Anytime Push VoD items when the Anytime PDL service is active on a set-top box. When PDL is present then Push VoD items are presented under the &apos;Showcase&apos; heading to distinguish them from Anytime PDL items in the remote OIG catalogue.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[SI]]></title>
+<meaning><![CDATA[Service Information: Digital data describing the delivery system, content and scheduling/timing of broadcast data streams. This includes the DVB/MPEG PSI together with independently defined extensions required for retrieving any data from the multiplex.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Signal Strength]]></title>
+<meaning><![CDATA[Signal strength refers to the magnitude of the electric field at a reference point that is a significant distance from the transmitting antenna. Satellite signal strength at the STB is expressed in dBm which is an abbreviation for the power ratio in decibels (dB) of the measured power referenced to one milliwatt (mW).
+The range seen at the STB will typically be from a low of -65dBm to a high of -25dBm, although some box types will report up to a maximum of -5dBm.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[SIK]]></title>
+<meaning><![CDATA[Sample Implementation Kit.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[SIM]]></title>
+<meaning><![CDATA[Service Information Management.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Single Item]]></title>
+<meaning><![CDATA[A single item refers to an Item directly accessible in the VOD listings i.e. not a collection. It does not include collections and the results of collapsing (although expanding a collection or collapsed listing generally yields several Single Items.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[SKEVT-A]]></title>
+<meaning><![CDATA[Sky Event Tables -Auxiliary.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[SKEVT-M]]></title>
+<meaning><![CDATA[Sky Event Tables -Main.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Sky NTE]]></title>
+<meaning><![CDATA[Sky Network Terminating Equipment.
+Essentially the network termination device (e.g. ADSL modem) at the customer&apos;s premises that the Sky STB will physically connect to, to access the Sky Broadband service.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Sky+]]></title>
+<meaning><![CDATA[Sky Branded PVR.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Smart Card]]></title>
+<meaning><![CDATA[IC Card.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[SMS]]></title>
+<meaning><![CDATA[Subscriber Management System.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Snippet]]></title>
+<meaning><![CDATA[Dynamic icon, rendered by a Widget.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Sort Title]]></title>
+<meaning><![CDATA[The version of the item&apos;s name used for searches. Derived from the Item Name processed to remove &apos;A&apos;, &apos;The&apos; etc.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[SPD]]></title>
+<meaning><![CDATA[Strategic Product Development, a group within Sky responsible for development of future products.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Spending Restriction Limit]]></title>
+<meaning><![CDATA[The amount of money which a viewer has set (under parental controls) as the maximum that may be spent on Pay-Per-View purchases before the STB will require PIN entry.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Split]]></title>
+<meaning><![CDATA[See Review Buffer Split.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[SRM]]></title>
+<meaning><![CDATA[System Renewability Message.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[SSID]]></title>
+<meaning><![CDATA[Service Set Identifier is a sequence of up to 32 letters or numbers that is the ID, or name, of a wireless local area network. The SSID is set by a network administrator and for open wireless networks, the SSID is broadcast to all wireless devices within range of the network access point. A closed wireless network does not broadcast the SSID, requiring users to know the SSID to access the network.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[SSP]]></title>
+<meaning><![CDATA[Sky Subscriber Panel - a group of viewers whose actions are fed back to Sky as a way of understanding product usage.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[SSR]]></title>
+<meaning><![CDATA[Stream Server (NDS product).
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[SSU]]></title>
+<meaning><![CDATA[System Software Update.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Stage 1]]></title>
+<meaning><![CDATA[A title of a phased deliverable within the Darwin programme. Stage One is set to deliver PVR functionality on the Darwin platform.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Stage 2]]></title>
+<meaning><![CDATA[A title of a phased deliverable within the Darwin programme. Stage Two is set to build upon &apos;Stage One&apos; and increase the functionality of the System to support that of an intermediate PVR.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Stage 3]]></title>
+<meaning><![CDATA[A title of a phased deliverable within the Darwin programme. Stage Three is set to build upon &apos;Stage Two&apos; and increase the functionality of the System.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Standby]]></title>
+<meaning><![CDATA[The idle state of a device or system usually associated with a low-power state.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Standby Delay]]></title>
+<meaning><![CDATA[A delay before the CPE switches from Running mode to Default Standby mode, after the user presses the Standby key. This enables the CPE to quickly restart during this period, in case the user requires switching the CPE on again.
+The Standby Delay is set to [10] minutes.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Standby Mode]]></title>
+<meaning><![CDATA[The reduced-power state of a Set-Top box.
+All STBs (Digibox and Sky+) will behave as follows:
+(--1--) The tuner(s) remain active
+(--2--) STB-generated A/V to all outputs (SCART, RF, HDMI and so on) is stopped
+(--3--) RF input from outside the STB via the aerial input socket continues to be passed through to the RF outputs
+(--4--) RF2 power remains on if that option has been set by the viewer
+(--5--) The VCR SCART input signal is passed through to the TV SCART output and its audio is passed to the left and right phono outputs
+Additionally, for Sky+ STBs in Standby Mode:
+(--1--) The Instant Rewind facility will not operate and any content buffered for instant rewind at the time of entering standby will be discarded
+(--2--) The time-shifted playback facility will not operate and any time-shifted content buffered at the time of entering standby will be discarded
+(--3--) Recordings (including Anytime Push and PDL) will be fulfilled - in other words standby mode has no effect upon the recording process.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Start Date Time]]></title>
+<meaning><![CDATA[The Start Date Time is the starting date and time of an item in the STB planner. This timestamp dictates the order in which items appear when they are sorted in chronological order.
+The timestamp depends upon the item type as follows:
+For Linear programmes the timestamp is the time of broadcast
+For Anytime Push items the timestamp is the time the item was copied to the planner
+For Anytime PDL items the timestamp is the time of booking
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Start Guard Time (SGT)]]></title>
+<meaning><![CDATA[See &apos;Guard Time&apos;.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[STB]]></title>
+<meaning><![CDATA[Set Top Box. e.g. Digibox, Sky+, and Sky+ HD.
+Set-top box (i.e. GW or iSTB). For UPC this is known as a &quot;CPE device,&quot; &quot;CPE&quot; or &quot;device.&quot;
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[STB Expiry Time]]></title>
+<meaning><![CDATA[The date and time when the ARR will be deleted from the CPE disk.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[STB_ID]]></title>
+<meaning><![CDATA[STB_CA_ID. Also referred to as &apos;CPE ID&apos;, this is the unique CA ID of the STB.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Subscriber Access Card]]></title>
+<meaning><![CDATA[The smart card inserted in the subscriber decoder or IRD.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Subscription Entitlement]]></title>
+<meaning><![CDATA[A &apos;Subscription Entitlement&apos; is an entitlement that a viewer has as a result of purchasing a subscription, as opposed to purchasing the entitlement to a single (normally PPV or TVOD) asset.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Successful Recording]]></title>
+<meaning><![CDATA[An item that has been fully recorded or downloaded.
+An item that has been fully recorded.
+A linear recording will be considered successful when it has been terminated providing that it was successful and un-interrupted from a point [2] minutes after the SKEVT Scheduled Start Time to a point 2 minutes before the Scheduled End Time and at least [10] seconds have been recorded.
+A linear recording will be considered successful when it has been terminated providing that content was recorded, without interruption, from a point [2] minutes after the Scheduled Start Time to a point [2] minutes before the Scheduled End Time and at least [10] seconds have been recorded.
+A PDL recording will be considered successful when it has been terminated providing that the entire playlist has been downloaded.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Super Provider Brand]]></title>
+<meaning><![CDATA[See &apos;Provider Group.&apos;
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Supplementary Programme Information]]></title>
+<meaning><![CDATA[Additional information about a programme beyond simply its title. May include the synopsis, a marketing message and information as to whether it is standard or high definition, has subtitles available and so on.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[SVOD]]></title>
+<meaning><![CDATA[Subscription-based Video On Demand.
+SVOD is a concept that means that the user is allowed to be entitled to some VOD assets via subscription.
+This includes VOD assets which are free
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[SWAP]]></title>
+<meaning><![CDATA[The act of replacing channels in a S&eacute;lectif Package.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Symbol Rate]]></title>
+<meaning><![CDATA[The symbol rate is the gross bit rate, inclusive of channel coding overhead, divided by the number of bits transmitted in each symbol. Symbol rate is measured in symbols-per-second, hertz (Hz), or baud (Bd).
+The term baud is synonymous with symbol rate, but is less frequently used today as it has in the past been commonly misused to mean bit rate or data rate.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Synopsis]]></title>
+<meaning><![CDATA[A brief editorially created outline of the content of a programme.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[System Disk Quota]]></title>
+<meaning><![CDATA[An area of the set-top box hard disk that is reserved for the use of the Anytime Push VOD service. The Viewer cannot record to the hidden partition, but they can view content there and optionally transfer it to the Planner if they are entitled to use and have activated the Anytime Push VOD service.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[System-Initiated Recording]]></title>
+<meaning><![CDATA[A recording not specifically booked or started by the user. In the Fusion-based Product, system-initiated recordings include: (a) recurring time-based recordings (after the first recording); (b) series recordings (after the first event in the series); (c) Automatic Recordings; (d) remote bookings. See also user-initiated recording.
+A recording not specifically booked or started by the user. In the Fusion-based Product, system-initiated recordings include: (a) recurring time-based recordings (after the first recording); (b) series recordings (after the first event in the series); (c) remote bookings. See also user-initiated recording.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[System Paused State]]></title>
+<meaning><![CDATA[The state which applies to an Anytime Progressive Download item which was paused by System action when it was scheduled for download or in the process of downloading.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Tank]]></title>
+<meaning><![CDATA[The Tank is a large IT storage facility where all the on-demand assets are stored for as long as Sky has an appropriate licence.
+The asset will be stored in the high quality format they are received from the ingest platform. An hour of content will require around 11GBytes in SD and around 23 GBytes in HD.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[TBC]]></title>
+<meaning><![CDATA[To Be Confirmed.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[TCP/IP]]></title>
+<meaning><![CDATA[Transmission Control Protocol (TCP) and the Internet Protocol (IP).
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[TFS]]></title>
+<meaning><![CDATA[Tuner and File Sharing - an internal facility of Darwin that allows multiple recordings and playbacks to share a tuner, stream and metadata files. MFS (Media File Sharing) is the Darwin component that implements TFS.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[The Library]]></title>
+<meaning><![CDATA[An area of the Resident Guide that presents the set of videos, photos, music and applications available for immediate use, no matter what their source (Gateway HDD, VOD server).
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[The Store]]></title>
+<meaning><![CDATA[An area of the Resident Guide that presents content available for purchase (some content may be already entitled)
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Third Party Content Provider]]></title>
+<meaning><![CDATA[An organisation other than Sky that may provide Assets for use on the VOD platform.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Threshold]]></title>
+<meaning><![CDATA[A Threshold is a pre-defined number of event purchases or amount of money spent since the last card Callback. When the card reaches its Threshold, it will trigger a Callback, even if it is not the scheduled time.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Time-Blackout]]></title>
+<meaning><![CDATA[A situation where Sky have prevented a region from viewing a broadcast. Blackout restrictions can block viewers in a certain geographic area, or viewers who fit other criteria defined by a broadcaster, from watching certain programs.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Time-Contiguous Content]]></title>
+<meaning><![CDATA[Time-Contiguous Content is a term used to describe recorded content on a Sky+ STB that seamlessly joins to or overlaps other content. For example, if a programme is being recorded on a channel that the viewer is watching, then that recording will be time-contiguous with the viewer&apos;s instant rewind buffer.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Time-Shift Event]]></title>
+<meaning><![CDATA[The event that is current when time-shift mode is entered.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Time-Shift Key]]></title>
+<meaning><![CDATA[A PVR remote control key that causes a transition from live viewing mode to time-shift mode. This is a key that sets the playback speed of the live source to less than 1.0 (normal forward). This includes pause, reverse, slow-motion, and frame-by-frame playback (as available).
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Time-Shift Mode]]></title>
+<meaning><![CDATA[Review (playback) of content in the Review Buffer.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Time-Shift Point]]></title>
+<meaning><![CDATA[The point in time at which the Viewer put a live-viewing source into time-shift mode. This can be done by hitting any of the time-shift keys.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Time-Shifted Content]]></title>
+<meaning><![CDATA[Live content which is received in real time, temporarily stored, allowing the content to be decoded and presented as if delayed with respect to the time the content was initially received.
+The end of Time-Shifted Content is defined as the most recently recorded point. The most recently recorded point may or may not be the live viewing point. For instance, if time-shifted content has been split so that there is a gap between the buffered content and the live viewing point then the &apos;end of time-shifted content&apos; will be the end of time-shifted content before the split, whereas if time-shifted content recording has stopped due to a disk quota conflict, then the &apos;end of the time-shifted content&apos; is the point at which the recording ended.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Time-Shifted Content Accumulation Limit]]></title>
+<meaning><![CDATA[The maximum limit for the accumulation of Time-Shifted Content is determined as follows:
+When the value of the Viewer&apos;s Instant Rewind setting is greater than zero Time-Shifted Content accumulation will stop when:
+(--1--) RB playback (Live Pause) mode has been entered and is active, AND
+(--2--) Live &gt;= (End time of the event being played back, including EGT) + [30 minutes], AND
+(--3--) The event being played back is not booked for recording. (This does not apply to manual recordings.)
+When the value of the Viewer&apos;s Instant Rewind setting is equal to zero Time-Shifted Content accumulation will stop when:
+(--1--) RB playback (Live Pause) mode has been entered and is active, AND
+(--2--) Live &gt;= (End time of the event following the event being played back, without EGT), AND
+(--3--) The event being played back is not booked for recording. (This does not apply to manual recordings.)
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Time-Shifted Playback]]></title>
+<meaning><![CDATA[Time-Shifted Playback&apos; refers to playing back, pausing, rewinding, fast-forwarding or playing back in slow motion Time-Shifted content.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Time-Shifted Playback Session]]></title>
+<meaning><![CDATA[The time period starting when the viewer leaves live viewing by invoking live pause or rewind, and ending when the viewer requests to stop playback, either explicitly or implicitly (e.g. CUTL, JTL, or performing a channel change).
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Time-Shifted Programme]]></title>
+<meaning><![CDATA[Time shifting is the recording of programming to a storage medium to be viewed or listened to at a time more convenient to the Viewer. Typically, this refers to the playback of a programme 1 or 2 minutes behind the Live broadcast.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Time-Shifting]]></title>
+<meaning><![CDATA[See Time-shift mode.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[TMC]]></title>
+<meaning><![CDATA[Targeted Message Client.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[TMS]]></title>
+<meaning><![CDATA[Targeted Message Server.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Topmost]]></title>
+<meaning><![CDATA[Topmost is the quality of the VOD item in the planner that is listed first sequentially reading from the top down. Non-VOD items are not considered when looking for the topmost item.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[TOT]]></title>
+<meaning><![CDATA[Time Offset Table.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Track Tag]]></title>
+<meaning><![CDATA[A track tag is the 4 byte-long definition of an elementary stream in OpenTV. The track tag definition shall be unique within a service and a stream type (i.e. no 2 different audio streams can have the same track tag). Multiple track tag can define the same elementary stream (i.e. a single audio stream can have 2 different track tags).
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Trailer]]></title>
+<meaning><![CDATA[A standalone asset that is associated with a particular Primary Asset, playback of a Trailer occurs independently of a Playlist.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Trick Modes]]></title>
+<meaning><![CDATA[PVR functionality that includes pause, fast-forward, rewind, and slow motion.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Trigger Module]]></title>
+<meaning><![CDATA[A piece of broadcast data containing a pointer to a trigger track, optionally an on-screen graphic and its display co-ordinates and a list of which keys cause the trigger to be invoked.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[True HD]]></title>
+<meaning><![CDATA[Content recorded in High Definition format as opposed to standard definition content that has been up-scaled to HD.
+True HD programs are programs signalled within HD channels as HD. Up-scaled material is not signalled as HD but may appear on an HD channel.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[True Rental]]></title>
+<meaning><![CDATA[See Rental Period.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[TS]]></title>
+<meaning><![CDATA[Transport Stream.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[TSId]]></title>
+<meaning><![CDATA[Transport Stream ID.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[TV]]></title>
+<meaning><![CDATA[Television - widely used telecommunication system for broadcasting and receiving moving pictures and sound over a distance. A rare instance of a word formed from both Greek and Latin roots.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[TV Guide]]></title>
+<meaning><![CDATA[TV Guide is similar to the TV listing your would find a newspaper. With a 7-day on-screen listing of programmes across channels, you can plan your TV viewing for an entire week. 
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[TVOD]]></title>
+<meaning><![CDATA[Transactional Video On Demand
+TVOD is a concept allowing the user to be entitled to some VOD assets via transactions (purchases).
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[UHN]]></title>
+<meaning><![CDATA[The network consisting of gateway and IP-zappers, as opposed to GHN.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Universal Plug and Play (UPnP)]]></title>
+<meaning><![CDATA[A networking architecture that provides compatibility among networking technologies. UPnP is a set of networking protocols promulgated by the UPnP Forum. The goals of UPnP are to allow devices to connect seamlessly and to simplify the implementation of networks in the home.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[UNT]]></title>
+<meaning><![CDATA[Update Notification Table.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[UPnP (digital) Media Server]]></title>
+<meaning><![CDATA[A server that stores and shares digital media, such as photographs, movies, or music, and communicates with other devices using the Universal Plug and Play (UPnP) protocols.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[URI]]></title>
+<meaning><![CDATA[Uniform Resource Identifier; a string of characters used to identify a name or a resource on the Internet.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[URL]]></title>
+<meaning><![CDATA[Uniform Resource Locator.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[User Disk Quota]]></title>
+<meaning><![CDATA[That portion of the set-top box hard disk that is available to the viewer for their own use. This will be less than the total disk space where an Anytime Disk Quota is also present on the same disk.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[User Disk Quota Threshold]]></title>
+<meaning><![CDATA[The User Disk Quota utilisation threshold at which the System will trigger an imminent disk quota conflict. An imminent disk quota conflict will be raised if the system estimates that less than [7 minutes] of continued recording can occur before the quota becomes full. This amount of time is called the disk quota threshold. This helps ensure that the quota never reaches 100% utilisation. 
+The System&apos;s estimate of what can be recorded is based on fixed assumptions for the bitrates of SD and HD content.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[User Entitlement to a Store Asset]]></title>
+<meaning><![CDATA[A user is considered as being entitled to an asset if the related product has been purchased or subscribed. Please note that a product might possibly be free-of-charge, thus providing free access to its included assets.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[User-initiated Recording]]></title>
+<meaning><![CDATA[A recording specifically booked or started by the user. In the Fusion-based Product, user-initiated recordings include: (a) non-recurring time-based recordings; (b) the first recording in a series recording; (c) bookings. See also system-initiated recording.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[VAM]]></title>
+<meaning><![CDATA[VOD Asset Manager. The VAM is the content management library server. The VAM holds all VOD assets and is responsible for distributing them to the VOD servers as required.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[VBI]]></title>
+<meaning><![CDATA[Vertical Blanking Interval.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[VCS]]></title>
+<meaning><![CDATA[VOD Catalogue Server. The VOD catalogue server serves VOD meta-data and search requests to the STB via the OIG.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Vertical Content]]></title>
+<meaning><![CDATA[Content that is provided by the broadcaster under agreement with content providers and that is protected by a conditional access system (when broadcast or delivered as VOD) or DRM (when stored and shared on the user&apos;s local network).
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[VFD]]></title>
+<meaning><![CDATA[Vacuum Fluorescent Display.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Vfile]]></title>
+<meaning><![CDATA[Virtual file - a logical recording or playback that is mapped by TFS onto one shared physical file. More than one vfile may be mapped to the same physical file.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[VGC]]></title>
+<meaning><![CDATA[VideoGuard Client.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[VGV]]></title>
+<meaning><![CDATA[VideoGuard Verifier (also known as the CA Kernel).
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Video Navigator]]></title>
+<meaning><![CDATA[Area within the UI that allows the browsing of aggregated video content (linear, VOD, and home network).
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Video Processor]]></title>
+<meaning><![CDATA[The Video Processor is the processor within the CPE device in charge of features related to audio/video content handling (e.g. Linear TV viewing, PVR). The software of the Fusion-based product is executed on this processor.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[VideoGuard]]></title>
+<meaning><![CDATA[VideoGuard is a Conditional Access (CA) and Digital Rights Management (DRM) system for use with conditional access television broadcasting. It allows Sky to protect broadcast content so that it can only be viewed by subscribers with valid viewing cards.
+VideoGuard is a Conditional Access (CA) and Digital Rights Management (DRM) system for use with conditional access television broadcasting. It allows the broadcaster to protect broadcast content so that it can only be viewed by subscribers with valid permissions for that content.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Viewer Paused State]]></title>
+<meaning><![CDATA[The state which applies to an Anytime Progressive Download item which was paused by Viewer action when it was scheduled for download or in the process of downloading.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Viewing Card]]></title>
+<meaning><![CDATA[A card that, when inserted into the System, enables a Viewer to watch Scrambled channels.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Viewing Card Purchase Log]]></title>
+<meaning><![CDATA[A record of Impulse Pay-Per-View (IPPV) purchases made through a set-top box. The data is held on the STB&apos;s Viewing Card and is uploaded to Sky as part of the monthly CA Callback process.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Visibility]]></title>
+<meaning><![CDATA[In the context of VoD &apos;visibility&apos; refers to whether or not an asset which is on the STB&apos;s disk appears in the box&apos;s listings. Anytime assets have a &apos;visibility window&apos; during which they appear in the Anytime listings. Outside of that window they will not appear, even if they are still present on the STB&apos;s disk.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[VOD]]></title>
+<meaning><![CDATA[Video On Demand.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[VOD Asset Licence End Date]]></title>
+<meaning><![CDATA[This is the time and date at which Sky loses its right to exploit a given asset (Primary, Secondary, and Trailers) in the VOD platform. After this time, the asset must be removed from the VOD platform, and no related items must be published in the VOD catalogue. No associated rental period must still be applicable.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[VOD Provider (or VOD Operator)]]></title>
+<meaning><![CDATA[In a general context, the VOD Provider is the platform owner -- the main aggregator of the VOD Items. The VOD Operator controls the way each Item is promoted, which classifications the Item is associated with, the price and how long they are available in the catalogue application. 
+For this project, there will be only one VOD delivery platform, owned and controlled by Sky.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[VOD Catalogue]]></title>
+<meaning><![CDATA[]]></meaning>
+</term>
+<term>
+<title><![CDATA[]]></title>
+<meaning><![CDATA[]]></meaning>
+</term>
+<term>
+<title><![CDATA[VOD Watchlist]]></title>
+<meaning><![CDATA[]]></meaning>
+</term>
+<term>
+<title><![CDATA[]]></title>
+<meaning><![CDATA[]]></meaning>
+</term>
+<term>
+<title><![CDATA[VoIP]]></title>
+<meaning><![CDATA[Voice over IP.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Voucher]]></title>
+<meaning><![CDATA[A voucher is a promotional code (coupon) communicated to the user. When the user enters his promotional code, it is communicated to the headend, allowing the user to obtain promotion(s) on asset(s).
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[VRM]]></title>
+<meaning><![CDATA[Viewing and Recording Management.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[VSBP]]></title>
+<meaning><![CDATA[Video Server Based Playout (i.e. File based transmission platform).
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[WAN]]></title>
+<meaning><![CDATA[Wide Area Network.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Watershed]]></title>
+<meaning><![CDATA[Watershed is a term used to describe a time period in television schedules during which it is permissible to show programmes which have content considered unsuitable for children and those of delicate sensibilities.
+The watershed on terrestrial television in the UK starts at 9:00pm, and finishes at 5:30am the next morning. On premium film or pay-per-view services requiring a subscription, the watershed starts at 8:00pm. There should be a gentle transition to adult material, and 18-rated material is not allowed to be shown before 10:00pm on free-to-air channels. However, 12, 15 and 18-rated films can be shown on PIN-protected channels (such as Sky Movies) at any time of the day. Viewers are required to enter their PIN to view live or time-shifted live broadcasts of such content. 
+The same restrictions do not apply to the playback of recordings which are not currently recording, and so a viewer with rated content on a Sky+ box will be able to play it back at any time, subject to any PIN restrictions optionally set up through the parental restrictions and &apos;PIN on Pre-Watershed Playback&apos; settings.
+The following table shows the mapping of ratings to the times of day when they will be applied.
+*** TABLE MISSING ***
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[WEP]]></title>
+<meaning><![CDATA[Wired Equivalent Privacy is a System of data encryption used in Wi-Fi technology to prevent access to, or observation of, the wireless network. WEP is not considered secure and there is a range of pre-existing software programs designed to break its encryption.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Wi-Fi]]></title>
+<meaning><![CDATA[Wi-Fi is short for &apos;Wireless Fidelity&apos; and is a set of standards for wireless local area networks based on the specifications known as 802.11. 
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Widget]]></title>
+<meaning><![CDATA[Small application that the user can purchase/download and install in the CPE from the operator application Store.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Wireless Bridge]]></title>
+<meaning><![CDATA[A Sky Wireless Bridge is a hardware device which when connected to a Sky Set Top Box via the Ethernet port and successfully configured via the EPG provides wireless broadband connectivity.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[WPA]]></title>
+<meaning><![CDATA[Wi-Fi Protected Access is a much improved form of encryption for wireless data. It lacks the vulnerabilities that WEP had, while at the same time easing installation and use of Wi-Fi networks.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[WSS]]></title>
+<meaning><![CDATA[Wide Screen Signalling.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[XSI]]></title>
+<meaning><![CDATA[eXtended Service Information. The term used to describe the ensemble of non-content information used to support the Sky EPG. This includes MPEG-2 Programme Specific Information (PSI), DVB Service Information (SI), Sky Carousel Objects and non-content video and audio streams. PSI and SI logically include all Sky Private Data Tables and Descriptors as applicable.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Zapper Mode]]></title>
+<meaning><![CDATA[When the Fusion-based Product initializes the CPE device in &quot;zapper mode&quot;, the user is allowed to access only the features supplied for a Fusion HD Product (including analogue recording). In such a case, the features related to the PVR, such as time-shifting, recording (digital) or playback of recording, are not available to the user. The PVR features are made available to the user when the Fusion-based Product initializes the CPE device in &quot;PVR mode&quot;.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Zapper Stage]]></title>
+<meaning><![CDATA[A title of initial deliverable within the Darwin programme. Zapper delivered Digibox functionality on the Darwin platform.
+]]></meaning>
+</term>
+<term>
+<title><![CDATA[Zapping Delay]]></title>
+<meaning><![CDATA[A deliberate delay (configured as [10 seconds]) between channel change and the start of recording into the Review Buffer. The zapping delay is pre-empted by the use of any time-shift key.
+]]></meaning>
+</term>
+</terms>
